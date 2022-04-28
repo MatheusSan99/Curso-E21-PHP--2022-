@@ -8,7 +8,7 @@
  ### 🔺Este guia visa deixar registrado os meus conhecimentos adquiridos ao longo do curso.
 1. [O que é Scrum](#oqueescrum)
 2. [Instalação e Conceitos dos Programas a serem Utilizados](#instalacao)
-3. [Comandos do GitHub](#gitHub)
+3. [Comandos do Git](#gitHub)
 
 <div id='oqueescrum'>
   
