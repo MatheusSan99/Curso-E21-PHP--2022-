@@ -9,6 +9,7 @@
 1. [O que é Scrum](#oqueescrum)
 2. [Instalação e Conceitos dos Programas a serem Utilizados](#instalacao)
 3. [Comandos do Git](#gitHub)
+4. [Lógica de Programação](#logica)
 
 <div id='oqueescrum'>
   
@@ -74,7 +75,7 @@
 | mkdir + Nome Diretório | Cria uma Pasta | <br/><br/>
 
 ## ✅  28/04
-
+<div id='logica'>
 #### 🔹Entrando no Módulo de Lógica de Programação
 #### 🔹Aula prática com mais alguns testes no Git e conceitos sobre lógica de Programação <br/>
 Exemplo Prático de Algoritmo:
