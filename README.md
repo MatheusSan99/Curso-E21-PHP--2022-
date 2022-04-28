@@ -71,6 +71,23 @@
 | pwd | Mostra A Localização Atual |
 | clear | Limpa Tela |
 | cp + Nome do Arquivo | Copia Arquivo |
-| mkdir + Nome Diretório | Cria uma Pasta |
+| mkdir + Nome Diretório | Cria uma Pasta | <br/><br/>
+
+## ✅  28/04
+
+#### 🔹Entrando no Módulo de Lógica de Programação
+#### 🔹Aula prática com mais alguns testes no Git e conceitos sobre lógica de Programação <br/>
+Exemplo Prático de Algoritmo:
+1-Conferir o endereço mais proximo
+2-Conferir a disponibilidade de horario
+3-Ir ao local
+4-Procurar um caixa disponivel
+5-Me dirigir ao caixa
+6-Inserir o cartao
+7-Fazer o processo no caixa
+8-Retirar cartao
+9-Sacar o dinheiro
+10-Conferir e Guardar o dinheiro
+
   
 [Inicio](#sumario)
