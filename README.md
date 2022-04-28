@@ -75,7 +75,9 @@
 | mkdir + Nome Diretório | Cria uma Pasta | <br/><br/>
 
 ## ✅  28/04
+  
 <div id='logica'>
+  
 #### 🔹Entrando no Módulo de Lógica de Programação
 #### 🔹Aula prática com mais alguns testes no Git e conceitos sobre lógica de Programação <br/>
 Exemplo Prático de Algoritmo:
