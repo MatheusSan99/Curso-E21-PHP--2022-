@@ -1,8 +1,8 @@
 <div id='sumario'>
   
-# **Curso Entra21 PHP 2022**
+# 🥇**Curso Entra21 PHP 2022**
 #### 🔹Professor Instrutor do Curso de PHP: <a href="https://www.linkedin.com/in/xadrak/">_Adriano Machado_<a/>
-## Conteúdo, material e Sincronização dos arquivos referentes ao curso Entra21
+## 📖Conteúdo, material e Sincronização dos arquivos referentes ao curso Entra21
 ## 🚦 O Que é este Guia?
 
  ### 🔺Este guia visa deixar registrado os meus conhecimentos adquiridos ao longo do curso.
@@ -51,6 +51,7 @@
    Git é um Software usado para registrar o histórico de edições de qualquer tipo de arquivo.  <br/>  <br/>
   🔹Conceitos básicos sobre clonar repositório e subir arquivos pra nuvem. 
   <br/>
+  
 <div id='gitHub'> 
   
 ## ✅  27/04
@@ -75,9 +76,9 @@
 | cp + Nome do Arquivo | Copia Arquivo |
 | mkdir + Nome Diretório | Cria uma Pasta | <br/><br/>
 
-## ✅  28/04
+<div id='logica'> 
   
-<div id='logica'>
+## ✅  28/04
   
 #### 🔹Entrando no Módulo de Lógica de Programação
 #### 🔹Aula prática com mais alguns testes no Git e conceitos sobre lógica de Programação <br/>
@@ -97,13 +98,13 @@ Exemplo Prático de Algoritmo:
   <p align="right"> Mais informações sobre Algoritmo <a href="https://www.youtube.com/watch?v=dvNp575fwzQ"> AQUI <a/></p>
 
 <br/>
+    
+<div id='algoritmo'>  
   
 ## ✅  29/04
-  
-<div id='logica'>
-  
+   
 #### 🔹Conceitos de Metodologias Ágeis e Algoritmo.
-  
+    
 - Mais alguns conceitos e explicações sobre Scrum, Kanban e outros recursos do Trello.
 - Exemplos e conceitos sobre como um projeto pode e deve ser planejado antecipadamente para que possa se alcançar o dobro do resultado com metade do esforço, ampliando os resultados e entregando um serviço com muito mais qualidade.
 - Exemplo prático sobre como planejar e analisar um projeto real com planejamento e fluxograma.
