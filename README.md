@@ -7,7 +7,7 @@
 # 🥇**Entra21 PHP 2022**
     
 #### 🔹Professor Instrutor do Curso de PHP: <a href="https://www.linkedin.com/in/xadrak/">_Adriano Machado_<a/>
-## 📖Conteúdo, material e Sincronização dos arquivos referentes ao curso Entra21
+## 📖Conteúdo, Material e Sincronização Dos Arquivos Referentes Ao Curso Entra21
 
     
 ## 🚦 O Que é este Guia?
