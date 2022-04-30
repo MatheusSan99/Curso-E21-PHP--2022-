@@ -1,10 +1,18 @@
 <div id='sumario'>
   
-# 🥇**Curso Entra21 PHP 2022**
+  <div align="center">
+    
+  <img src="https://cdn.sonicadigital.com.br/entra21/storage/header/257/original-61f8610472d4f.png" align="middle">
+ 
+# 🥇**Entra21 PHP 2022**
+    
 #### 🔹Professor Instrutor do Curso de PHP: <a href="https://www.linkedin.com/in/xadrak/">_Adriano Machado_<a/>
 ## 📖Conteúdo, material e Sincronização dos arquivos referentes ao curso Entra21
-## 🚦 O Que é este Guia?
 
+    
+## 🚦 O Que é este Guia?
+</div>
+    
  ### 🔺Este guia visa deixar registrado os meus conhecimentos adquiridos ao longo do curso.
 1. [O que é Scrum](#oqueescrum)
 2. [Instalação e Conceitos dos Programas a serem Utilizados](#instalacao)
