@@ -1,10 +1,18 @@
 <div id='sumario'>
   
   <div align="center">
-    
-  <img src="https://cdn.sonicadigital.com.br/entra21/storage/header/257/original-61f8610472d4f.png" align="middle">
+ 
  
 # 🥇**Entra21 PHP 2022**
+    
+- 💬 Me Encontre por aí: <br/><br/>
+<a href="https://www.instagram.com/matheussan_99/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"> 
+                  </a>
+<a href="https://www.twitch.tv/god_loki_" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank">  </a>
+<a href="mailto:99matheussan@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+                  </a>
+<a href="https://www.linkedin.com/in/matheussan/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+                  </a>   
     
 #### 🔹Professor Instrutor do Curso de PHP: <a href="https://www.linkedin.com/in/xadrak/">_Adriano Machado_<a/>
 ## 📖Conteúdo, Material e Sincronização Dos Arquivos Referentes Ao Curso Entra21
