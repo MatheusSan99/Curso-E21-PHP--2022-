@@ -33,9 +33,9 @@
 ## ✅ (18/04 a 25/04)
   
 🔹Definição e aplicação de 
-   <a href="https://www.ieepeducacao.com.br/sprint-review/#:~:text=O%20principal%20objetivo%20da%20Sprint,do%20que%20a%20equipe%20construiu.">**SCRUM**<a/>, 
-   <a href="https://www.totvs.com/blog/negocios/kanban/">**KANBAN**<a/>,
-   <a href="https://trello.com/">**TRELLO.**<a/>
+   <a href="https://www.ieepeducacao.com.br/sprint-review/#:~:text=O%20principal%20objetivo%20da%20Sprint,do%20que%20a%20equipe%20construiu." target="_blank">**SCRUM**<a/>, 
+   <a href="https://www.totvs.com/blog/negocios/kanban/" target="_blank">**KANBAN**<a/>,
+   <a href="https://trello.com/" target="_blank">**TRELLO.**<a/>
      
   ### **O Scrum possui 3 pilares fundamentais:**
      
