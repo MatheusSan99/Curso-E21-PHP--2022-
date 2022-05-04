@@ -24,7 +24,8 @@
  ### 🔺Este guia visa deixar registrado os meus conhecimentos adquiridos ao longo do curso.
 1. [O que é Scrum](#oqueescrum)
 2. [Instalação e Conceitos dos Programas a serem Utilizados](#instalacao)
-3. [Comandos do Git](#gitHub)
+3. [Comandos do Git 1.0](#gitHub)
+3  [Comandos do Git 1.1](#gitHub1)    
 4. [Lógica de Programação](#logica)
 5. [Algoritmo](#algoritmo)
 6. [Outros Conceitos](#conceitos)
@@ -159,10 +160,23 @@ Exemplo Prático de Algoritmo:
   
 #### 🔹Aula de Inglês.
   
-🔸Aula com diversos Exercicios Práticos de conversação.  
+🔸Aula com diversos Exercicios Práticos de conversação.
+  
+  <br/>
+  
+<div id='github1'>  
   
 ## ✅  04/05
   
- 
+#### 🔹Revisão dos Conceitos de Git e novas informações sobre o curso.
   
+#### Como ignorar alterações no repositorio local antes de efetuar commit. 
+#### Você alterou arquivos e desistiu de infomar isto ao repositorio.
+
+- git reset
+- git clean -fd 
+- git restore
+  
+🔸 Novas informações a respeito do direcionamento do curso e futuros projetos
+ 
 [Inicio](#sumario)
