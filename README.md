@@ -124,5 +124,27 @@ Exemplo Prático de Algoritmo:
 - Mais alguns conceitos e explicações sobre Scrum, Kanban e outros recursos do Trello.
 - Exemplos e conceitos sobre como um projeto pode e deve ser planejado antecipadamente para que possa se alcançar o dobro do resultado com metade do esforço, ampliando os resultados e entregando um serviço com muito mais qualidade.
 - Exemplo prático sobre como planejar e analisar um projeto real com planejamento e fluxograma.
+  <br/>
+  
+ ## ✅  02/05
+  
+ #### 🔹Conceitos de Front-End, Back-End e estrutura de dados.
+
+- Front-End: Podemos classificar como a parte visual de um site, aquilo que conseguimos interagir. Quem trabalha com Front End é responsável por desenvolver por meio de código uma interface gráfica, normalmente com as tecnologias base da Web (HTML, CSS e JavaScript).
+  
+- Back-End: O Back End trabalha em boa parte dos casos fazendo a ponte entre os dados que vem do navegador rumo ao banco de dados e vice-versa, sempre aplicando as devidas regras de negócio, validações e garantias em um ambiente onde o usuário final não tenha acesso e possa manipular algo.
+
+- FullStack: Full stack developer é quem trabalhar com Front End e Back End.
+  
+
+## ✅  03/05
+  
+#### 🔹Aula de Inglês.
+  
+🔸Aula com diversos Exercicios Práticos de conversação.  
+  
+## ✅  04/05
+  
+ 
   
 [Inicio](#sumario)
