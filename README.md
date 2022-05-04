@@ -177,7 +177,7 @@ Exemplo Prático de Algoritmo:
 - git clean -fd 
 - git restore
   
-🔸 Novas informações a respeito do direcionamento do curso e futuros projetos
+🔸 Novas informações a respeito do direcionamento do curso e futuros projetos <br/>
 🔸 Divisão das equipes para os futuros projetos.
  
 [Inicio](#sumario)
