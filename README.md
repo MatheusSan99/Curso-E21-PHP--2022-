@@ -149,7 +149,7 @@ Exemplo Prático de Algoritmo:
 | string | 'exemplo' |   
 | boolean | true ou false |
 | float | 1.5,-2.5 |
-| array | exemplo[1,2,3], exemplo['a','b' |   
+| array | exemplo[1,2,3], exemplo['a','b'] |   
    
   <br/>
    
