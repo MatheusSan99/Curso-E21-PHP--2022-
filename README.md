@@ -27,6 +27,8 @@
 3. [Comandos do Git](#gitHub)
 4. [Lógica de Programação](#logica)
 5. [Algoritmo](#algoritmo)
+6. [Outros Conceitos](#conceitos)
+7. [Inglês](#ingles)
 
 <div id='oqueescrum'>
   
@@ -126,6 +128,9 @@ Exemplo Prático de Algoritmo:
 - Exemplo prático sobre como planejar e analisar um projeto real com planejamento e fluxograma.
   <br/>
   
+  
+ <div id='conceitos'>   
+   
  ## ✅  02/05
   
  #### 🔹Conceitos de Front-End, Back-End e estrutura de dados.
@@ -135,8 +140,21 @@ Exemplo Prático de Algoritmo:
 - Back-End: O Back End trabalha em boa parte dos casos fazendo a ponte entre os dados que vem do navegador rumo ao banco de dados e vice-versa, sempre aplicando as devidas regras de negócio, validações e garantias em um ambiente onde o usuário final não tenha acesso e possa manipular algo.
 
 - FullStack: Full stack developer é quem trabalhar com Front End e Back End.
+   
+| Comando | Exemplo | 
+| ------|-----|
+| int | -1, -5, 5, 10 |
+| float | 1.5, -2.5 |  
+| char | 'a', 'b' |   
+| string | 'exemplo' |   
+| boolean | true ou false |
+| float | 1.5,-2.5 |
+| array | exemplo[1,2,3], exemplo['a','b' |   
+   
+  <br/>
+   
+<div id='ingles'>
   
-
 ## ✅  03/05
   
 #### 🔹Aula de Inglês.
