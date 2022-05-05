@@ -151,7 +151,6 @@ Exemplo Prático de Algoritmo:
 | char | 'a', 'b' |   
 | string | 'exemplo' |   
 | boolean | true ou false |
-| float | 1.5,-2.5 |
 | array | exemplo[1,2,3], exemplo['a', 'b'] |   
    
   <br/>
