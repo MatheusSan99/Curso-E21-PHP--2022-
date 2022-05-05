@@ -27,10 +27,11 @@
 3. [Comandos do Git 1.0](#gitHub)
 3. [Comandos do Git 1.1](#github1)    
 4. [Lógica de Programação 1.0](#logica)
-5. [Algoritmo](#algoritmo)
-6. [Outros Conceitos](#conceitos)
-7. [Inglês](#ingles)
-8. [Lógica de Programação 1.1](#logica1)   
+5. [Lógica de Programação 1.1](#logica1) 
+6. [Algoritmo](#algoritmo)
+7. [Outros Conceitos](#conceitos)
+8. [Inglês](#ingles)
+  
 
 <div id='oqueescrum'>
   
