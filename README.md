@@ -25,7 +25,7 @@
 1. [O que é Scrum](#oqueescrum)
 2. [Instalação e Conceitos dos Programas a serem Utilizados](#instalacao)
 3. [Comandos do Git 1.0](#gitHub)
-3  [Comandos do Git 1.1](#gitHub1)    
+3. [Comandos do Git 1.1](#github1)    
 4. [Lógica de Programação 1.0](#logica)
 5. [Algoritmo](#algoritmo)
 6. [Outros Conceitos](#conceitos)
