@@ -30,7 +30,7 @@
 5. [Algoritmo](#algoritmo)
 6. [Outros Conceitos](#conceitos)
 7. [Inglês](#ingles)
-8. [Lógica de Programação 1.1(#logica1)   
+8. [Lógica de Programação 1.1](#logica1)   
 
 <div id='oqueescrum'>
   
