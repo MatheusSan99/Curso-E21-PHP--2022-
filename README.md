@@ -26,10 +26,11 @@
 2. [Instalação e Conceitos dos Programas a serem Utilizados](#instalacao)
 3. [Comandos do Git 1.0](#gitHub)
 3  [Comandos do Git 1.1](#gitHub1)    
-4. [Lógica de Programação](#logica)
+4. [Lógica de Programação 1.0](#logica)
 5. [Algoritmo](#algoritmo)
 6. [Outros Conceitos](#conceitos)
 7. [Inglês](#ingles)
+8. [Lógica de Programação 1.1(#logica1)   
 
 <div id='oqueescrum'>
   
@@ -178,6 +179,41 @@ Exemplo Prático de Algoritmo:
 - git restore
   
 🔸 Novas informações a respeito do direcionamento do curso e futuros projetos <br/>
-🔸 Divisão das equipes para os futuros projetos.
- 
+🔸 Divisão das equipes para os futuros projetos. <br/>
+  
+  <div id='logica1'>
+    
+ ## ✅  05/05 
+  
+ #### 🔹Conceitos sobre lógica de programação e exercicios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
+  
+ Exercicios Testados:
+  
+    programa {
+    inclua biblioteca Matematica --> mat
+	  funcao inicio() {
+    inteiro a,b
+	  escreva("digite o primeiro número: \n")
+		leia(a)
+		escreva("digite o segundo número: \n")
+		leia(b)
+	
+		inteiro soma = a+b
+		inteiro subtracao = a-b
+		inteiro divisao = a/b
+		inteiro multiplicacao = a*b
+		real raizquadrada = mat.raiz(a,2.0)
+		real potencia = mat.potencia(a,b)
+		real restodadivisao = a % b
+		
+		escreva("voce digitou ",a," e ",b, "\n", 
+		"a soma é igual a: ", soma, 
+		"\na subtração é igual a: ", subtracao, 
+		"\na divisão é igual a: ", divisao, 
+		"\na multiplicação é igual a: ", multiplicacao,
+		"\na raiz² é igual a: ", raizquadrada,
+		"\na potência é igual a: ", potencia,
+		"\no resto da divisão é: ", restodadivisao)
+	}}
+
 [Inicio](#sumario)
