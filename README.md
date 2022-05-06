@@ -215,6 +215,6 @@ Exemplo Prático de Algoritmo:
 		"\na potência é igual a: ", potencia,
 		"\no resto da divisão é: ", restodadivisao)
 	}}
-oioioi
+
 - [x] [Exemplos](Exemplos/Exercicio_001)
 [Inicio](#sumario)
