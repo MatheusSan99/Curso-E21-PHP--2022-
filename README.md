@@ -216,5 +216,6 @@ Exemplo Prático de Algoritmo:
 		"\no resto da divisão é: ", restodadivisao)
 	}}
 
-- [x] [Exemplos](Exemplos/Exercicio_001)
+
+- [x] [Exemplos](Exemplos/Exercicio_001.md)
 [Inicio](#sumario)
