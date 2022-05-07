@@ -1,12 +1,13 @@
-   programa {
-    inclua biblioteca Matematica --> mat
-	  funcao inicio() {
-    inteiro a,b
-	  escreva("digite o primeiro número: \n")
+  	   # Exercicio de Calculadora, calculando soma, subtração, divisão, multiplicação, raiz², potência e resto da divisão!
+
+		  programa {
+        inclua biblioteca Matematica --> mat
+	    funcao inicio() {
+   	    inteiro a,b
+	    escreva("digite o primeiro número: \n")
 		leia(a)
 		escreva("digite o segundo número: \n")
 		leia(b)
-	
 		inteiro soma = a+b
 		inteiro subtracao = a-b
 		inteiro divisao = a/b
