@@ -1,4 +1,6 @@
-	    escreva("Digite a quantidade de fatias de presunto que você irá querer no pedido \n")
+## Este exemplo pede o nome do usuário e quatro valores inteiros, os quais representam a quantidade de ingredientes do lanche a ser comprado. Após, exibe o nome do usuário seguido da quantidade de cada item comprado e o valor total a ser pago. 
+
+	 escreva("Digite a quantidade de fatias de presunto que você irá querer no pedido \n")
 	    leia(quantidade_presunto)
 	    
 	    escreva("Digite a quantidade de copos de suco que você irá querer no pedido \n")
