@@ -105,8 +105,8 @@
 #### 🔹Aula prática com mais alguns testes no Git e conceitos sobre lógica de Programação <br/>
 
 Exemplo Prático de Algoritmo:
-
-[x] [Exemplos - Algoritmo](Exemplos/Exemplo_algoritmo.md)
+             
+➡️➡️➡️ [x] [Exemplos - Algoritmo](Exemplos/Exemplo_algoritmo.md)
 
   <p align="right"> Mais informações sobre Algoritmo <a href="https://www.youtube.com/watch?v=dvNp575fwzQ"> AQUI <a/></p>
 
@@ -181,11 +181,11 @@ Exemplo Prático de Algoritmo:
   
  Exercicios Testados:
   
-[x] [Exemplos](Exemplos/Exercicio_001.md)
-[x] [Exemplos](Exemplos/Exercicio_002.md)
-[x] [Exemplos](Exemplos/Exercicio_003.md)
-[x] [Exemplos](Exemplos/Exercicio_004.md)
-[x] [Exemplos](Exemplos/Exercicio_005.md)
+[x] [Exemplos - Calculadora](Exemplos/Exercicio_001.md)<br/>
+[x] [Exemplos - Maioridade](Exemplos/Exercicio_002.md)<br/>
+[x] [Exemplos - Média Altura](Exemplos/Exercicio_003.md)<br/>
+[x] [Exemplos - Loja](Exemplos/Exercicio_004.md)<br/>
+[x] [Exemplos - Dias Passados](Exemplos/Exercicio_005.md)<br/>
 
  
 
