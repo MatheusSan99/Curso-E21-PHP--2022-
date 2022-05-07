@@ -31,7 +31,6 @@
 6. [Algoritmo](#algoritmo)
 7. [Outros Conceitos](#conceitos)
 8. [Inglês](#ingles)
-9. [Exercicios](#exercicios)
   
 
 <div id='oqueescrum'>
@@ -106,17 +105,9 @@
 #### 🔹Aula prática com mais alguns testes no Git e conceitos sobre lógica de Programação <br/>
 
 Exemplo Prático de Algoritmo:
-- 1 )   Conferir o endereço mais proximo
-- 2 )   Conferir a disponibilidade de horario
-- 3 )   Ir ao local
-- 4 )   Procurar um caixa disponivel
-- 5 )   Me dirigir ao caixa
-- 6 )   Inserir o cartao
-- 7 )   Fazer o processo no caixa
-- 8 )   Retirar cartao
-- 9 )   Sacar o dinheiro
-- 10 )  Conferir e Guardar o dinheiro
-  
+
+[x] [Exemplos - Algoritmo](Exemplos/Exemplo_algoritmo.md)
+
   <p align="right"> Mais informações sobre Algoritmo <a href="https://www.youtube.com/watch?v=dvNp575fwzQ"> AQUI <a/></p>
 
 <br/>
@@ -187,18 +178,14 @@ Exemplo Prático de Algoritmo:
  ## ✅  05/05 
   
  #### 🔹Conceitos sobre lógica de programação e exercicios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
- 
-   <div id='exercicios'>
-     
-## ✅  06/05 
-    
-Exercicios Testados:
   
-[x] [Exemplos - Calculadora](Exemplos/Exercicio_001.md)<br/>
-[x] [Exemplos - Maioridade](Exemplos/Exercicio_002.md)<br/>
-[x] [Exemplos - Média Altura](Exemplos/Exercicio_003.md)<br/>
-[x] [Exemplos - Loja](Exemplos/Exercicio_004.md)<br/>
-[x] [Exemplos - Dias Passados](Exemplos/Exercicio_005.md)<br/>
+ Exercicios Testados:
+  
+[x] [Exemplos](Exemplos/Exercicio_001.md)
+[x] [Exemplos](Exemplos/Exercicio_002.md)
+[x] [Exemplos](Exemplos/Exercicio_003.md)
+[x] [Exemplos](Exemplos/Exercicio_004.md)
+[x] [Exemplos](Exemplos/Exercicio_005.md)
 
  
 
