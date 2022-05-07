@@ -1,7 +1,7 @@
-  	   # Exercicio de Calculadora, calculando soma, subtração, divisão, multiplicação, raiz², potência e resto da divisão!
+ ## Exercicio de Calculadora, calculando soma, subtração, divisão, multiplicação, raiz², potência e resto da divisão!
 
 		  programa {
-        inclua biblioteca Matematica --> mat
+       	 inclua biblioteca Matematica --> mat
 	    funcao inicio() {
    	    inteiro a,b
 	    escreva("digite o primeiro número: \n")
