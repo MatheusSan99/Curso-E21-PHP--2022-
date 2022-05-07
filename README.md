@@ -188,7 +188,8 @@ Exemplo Prático de Algoritmo:
   
  #### 🔹Conceitos sobre lógica de programação e exercicios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
  
-   <div id='exercicios'> 
+   <div id='exercicios'>
+     
 ## ✅  06/05 
     
 Exercicios Testados:
