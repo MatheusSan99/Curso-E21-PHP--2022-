@@ -31,6 +31,7 @@
 6. [Algoritmo](#algoritmo)
 7. [Outros Conceitos](#conceitos)
 8. [Inglês](#ingles)
+9. [Exercicios](#exercicios)
   
 
 <div id='oqueescrum'>
@@ -186,14 +187,17 @@ Exemplo Prático de Algoritmo:
  ## ✅  05/05 
   
  #### 🔹Conceitos sobre lógica de programação e exercicios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
+ 
+   <div id='exercicios'> 
+## ✅  06/05 
+    
+Exercicios Testados:
   
- Exercicios Testados:
-  
-[x] [Exemplos](Exemplos/Exercicio_001.md)
-[x] [Exemplos](Exemplos/Exercicio_002.md)
-[x] [Exemplos](Exemplos/Exercicio_003.md)
-[x] [Exemplos](Exemplos/Exercicio_004.md)
-[x] [Exemplos](Exemplos/Exercicio_005.md)
+[x] [Exemplos - Calculadora](Exemplos/Exercicio_001.md)<br/>
+[x] [Exemplos - Maioridade](Exemplos/Exercicio_002.md)<br/>
+[x] [Exemplos - Média Altura](Exemplos/Exercicio_003.md)<br/>
+[x] [Exemplos - Loja](Exemplos/Exercicio_004.md)<br/>
+[x] [Exemplos - Dias Passados](Exemplos/Exercicio_005.md)<br/>
 
  
 
