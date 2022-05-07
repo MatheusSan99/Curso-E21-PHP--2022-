@@ -1,4 +1,5 @@
-programa {
+## Este exemplo pede ao usuário a altura de 3 pessoas. Logo após, calcula e exibe a média das alturas informadas.
+	programa {
     	inclua biblioteca Matematica --> mat
 	funcao inicio() {
 	    
