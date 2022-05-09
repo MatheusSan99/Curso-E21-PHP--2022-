@@ -6,13 +6,13 @@
 # 🥇**Entra21 PHP 2022**
     
  💬 Me Encontre por aí: <br/><br/>
-<a href="https://www.instagram.com/matheussan_99/"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"> 
-                  </a>
-<a href="https://www.twitch.tv/god_loki_"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank">                         </a>
-<a href="mailto:99matheussan@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-                  </a>
-<a href="https://www.linkedin.com/in/matheussan/"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-                  </a>   
+
+
+ [![Gmail Badge](	https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:99matheussa@gmail.com)
+ [![Twitch Badge](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/god_loki_)
+ [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/matheussan_99/)
+ [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheussan/)  
+ [![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+5511959216443) 
     
 #### 🔹Professor Instrutor do Curso de PHP: <a href="https://www.linkedin.com/in/xadrak/">_Adriano Machado_<a/>
 ## 📖Conteúdo, Material e Sincronização Dos Arquivos Referentes Ao Curso Entra21
