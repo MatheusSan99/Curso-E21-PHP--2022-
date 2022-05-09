@@ -175,20 +175,26 @@ Exemplo Prático de Algoritmo:
   
   <div id='logica1'>
     
- ## ✅  05/05 
+ ## ✅  05/05 a 09/05 
   
  #### 🔹Conceitos sobre lógica de programação e exercicios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
   
  Exercicios Testados:
   
-[x] [Exemplos - Calculadora](Exemplos/Exercicio_001.md)<br/>
-[x] [Exemplos - Maioridade](Exemplos/Exercicio_002.md)<br/>
-[x] [Exemplos - Média Altura](Exemplos/Exercicio_003.md)<br/>
-[x] [Exemplos - Loja](Exemplos/Exercicio_004.md)<br/>
-[x] [Exemplos - Dias Passados](Exemplos/Exercicio_005.md)<br/>
+[x] [Exercícios - Calculadora](Exemplos/Exercicio_001.md)<br/>
+[x] [Exercícios - Maioridade](Exemplos/Exercicio_002.md)<br/>
+[x] [Exercícios - Média Altura](Exemplos/Exercicio_003.md)<br/>
+[x] [Exercícios - Loja](Exemplos/Exercicio_004.md)<br/>
+[x] [Exercícios - Dias Passados](Exemplos/Exercicio_005.md)<br/>
+[x] [Exercícios - Área Retângulo 01](Exemplos/Exercicio_Area_Retangulo.portugol)<br/>
+[x] [Exercícios - Área Retângulo 02](Exemplos/Exercicio_Area_Retangulo2.portugol)<br/>
+[x] [Exercícios - INSS](Exemplos/Exercicio_INSS.portugol)<br/>
+[x] [Exercícios - Laço](Exemplos/Exercicio_Laco.portugol)<br/>
+
+
 
  
 
 
 
-[Inicio](#sumario)
+[Volte Para o Início](#sumario)

@@ -13,16 +13,15 @@
 */
 programa {
     inclua biblioteca Matematica --> mat
-	funcao inicio() {
-	    real base, altura, converter_metros
-		escreva("Digite o valor da base: ")
-		leia(base)
-		
-		escreva("Digite o valor da altura: ")
-		leia(altura)
-		
-		real area = base * altura
-		escreva("O valor da base é: ", area, " cm²")
+ funcao inicio() {
+     real base, altura, converter_metros
+  escreva("Digite o valor da base: ")
+  leia(base)
+  
+  escreva("Digite o valor da altura: ")
+  leia(altura)
+  
+  real area = base * altura
         
         real conversor = (area / 100)
         converter_metros = mat.arredondar(conversor, 1)
@@ -42,6 +41,5 @@ programa {
         se(converter_metros > 10000){
             escreva("A área é uma fazenda")
         }
-	}
+ }
 }
-
