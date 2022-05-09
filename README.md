@@ -186,6 +186,8 @@ Exemplo Prático de Algoritmo:
 [x] [Exemplos - Média Altura](Exemplos/Exercicio_003.md)<br/>
 [x] [Exemplos - Loja](Exemplos/Exercicio_004.md)<br/>
 [x] [Exemplos - Dias Passados](Exemplos/Exercicio_005.md)<br/>
+[x] [Exemplos - Area do Retangulo 01](Exemplos/Exercicio_Area_Retangulo.portugol)<br/>
+[x] [Exemplos - Área do Retângulo 02](Exemplos/Exercicio_Area_Retangulo2.portugol)<br/>
 
  
 
