@@ -1,0 +1,20 @@
+#Exercicio 001: Versão 001.
+
+    Elbore um algoritmo que calcule a área de um retangulo qualquer, 
+    recebendo, para isso o valor da base e da altura em centimetros.
+    Imprima o tamanho em centimetros. 
+    fazer commit.
+
+    programa {
+	funcao inicio() {
+	    real base, altura
+		escreva("Digite o valor da base: ")
+		leia(base)
+		
+		escreva("Digite o valor da altura: ")
+		leia(altura)
+		
+		real area = base * altura
+		escreva("O valor da base é: ", area, " centímetros")
+	}
+}
