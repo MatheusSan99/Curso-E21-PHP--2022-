@@ -26,8 +26,8 @@
 2. [Instalação e Conceitos dos Programas a serem Utilizados](#instalacao)
 3. [Comandos do Git 1.0](#gitHub)
 3. [Comandos do Git 1.1](#github1)    
-4. [Lógica de Programação 1.0](#logica)
-5. [Lógica de Programação 1.1](#logica1) 
+4. [Lógica de Programação - Conceitos](#logica)
+5. [Lógica de Programação - Exercícios ](#logica1) 
 6. [Algoritmo](#algoritmo)
 7. [Outros Conceitos](#conceitos)
 8. [Inglês](#ingles)
@@ -177,7 +177,7 @@ Exemplo Prático de Algoritmo:
     
  ## ✅  05/05 a 09/05 
   
- #### 🔹Conceitos sobre lógica de programação e exercicios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
+ #### 🔹Muitos Conceitos sobre lógica de programação e exercícios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
   
  Exercicios Testados:
  
