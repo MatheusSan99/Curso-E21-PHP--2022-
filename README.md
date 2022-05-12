@@ -29,8 +29,8 @@
 5. [Lógica de Programação - Exercícios ](#logica1) 
 6. [Algoritmo](#algoritmo)
 7. [Outros Conceitos](#conceitos)
-8. [Inglês](#ingles)
-9. [Inglês](#ingles1)
+8. [Inglês 1.0](#ingles)
+9. [Inglês 1.1](#ingles1)
   
 
 <div id='oqueescrum'>
