@@ -175,8 +175,7 @@ Exemplo Prático de Algoritmo:
   
   <div id='logica1'>
     
- ## ✅  (05/05 a 09/05) 
- ## ✅  (12/05)
+ ## ✅  (05/05 a 09/05)  -  ✅  (12/05)
   
  #### 🔹Muitos Conceitos sobre lógica de programação e exercícios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
   
