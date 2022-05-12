@@ -181,7 +181,6 @@ Exemplo Prático de Algoritmo:
   
  Exercicios Testados:
   
-<<<<<<< HEAD
 [x] [Exercícios - Calculadora](Exemplos/Exercicio_001.md)<br/>
 [x] [Exercícios - Maioridade](Exemplos/Exercicio_002.md)<br/>
 [x] [Exercícios - Média Altura](Exemplos/Exercicio_003.md)<br/>
@@ -192,16 +191,6 @@ Exemplo Prático de Algoritmo:
 [x] [Exercícios - INSS](Exemplos/Exercicio_INSS.portugol)<br/>
 [x] [Exercícios - Laço](Exemplos/Exercicio_Laco.portugol)<br/>
 
-
-=======
-[x] [Exemplos - Calculadora](Exemplos/Exercicio_001.md)<br/>
-[x] [Exemplos - Maioridade](Exemplos/Exercicio_002.md)<br/>
-[x] [Exemplos - Média Altura](Exemplos/Exercicio_003.md)<br/>
-[x] [Exemplos - Loja](Exemplos/Exercicio_004.md)<br/>
-[x] [Exemplos - Dias Passados](Exemplos/Exercicio_005.md)<br/>
-[x] [Exemplos - Area do Retangulo 01](Exemplos/Exercicio_Area_Retangulo.portugol)<br/>
-[x] [Exemplos - Área do Retângulo 02](Exemplos/Exercicio_Area_Retangulo2.portugol)<br/>
->>>>>>> 9f4744898a6c5d99f392bef5309bb1df6962f840
 
  
 

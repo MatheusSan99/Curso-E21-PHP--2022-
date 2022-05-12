@@ -1,0 +1,41 @@
+#Exercicio 003
+
+    Solicite um valor do usuario (inteiro)
+
+    Verifique se o valor está entre
+
+    <0 = imprimir: NUMERO NEGATIVO
+    0 e 9 = imprimir a palavra:ZERO a NOVE
+    10 e 19 = imprimir a palavra:DEZ a DEZENOVE
+    20 e 29 = imprimir a palavra:VINTE A VINTE E NOVE
+    30 e 39 = imprimir a palavra:TRINTA A TRINTA E NOVE
+    >=40 = imprimir: QUARENTA OU MAIOR
+
+    NO final calcule 50% do valor digitado e imprima:
+        50 por cento do valor informado é: [RESULTADO]
+
+
+programa {
+
+  funcao inicio() {
+    inteiro numero
+        escreva("digite um número: ")
+        leia(numero)
+        inteiro porcentagem = numero *  0.5
+        se (numero < 0) {
+        escreva("NUMERO NEGATIVO")
+ }      se (numero >= 0 e numero <= 9) {
+        escreva("ZERO a NOVE")
+ }      se(numero >= 10 e numero <= 19) {
+        escreva("DEZ a DEZENOVE")
+ }      se(numero >= 20 e numero <= 29) {
+        escreva("VINTE A VINTE E NOVE")
+ }      se(numero >=30 e numero <= 39) {
+        escreva("TRINTA A TRINTA E NOVE")
+ }       senao se(numero >= 40) {
+        escreva("40 OU MAIOR\n")
+ }
+    escreva( "50 por cento do valor informado é :", porcentagem)
+ }
+}
+ 
