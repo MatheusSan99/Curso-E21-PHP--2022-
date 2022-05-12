@@ -6,13 +6,12 @@
 # 🥇**Entra21 PHP 2022**
     
  💬 Me Encontre por aí: <br/><br/>
-<a href="https://www.instagram.com/matheussan_99/"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"> 
-                  </a>
-<a href="https://www.twitch.tv/god_loki_"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank">                         </a>
-<a href="mailto:99matheussan@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-                  </a>
-<a href="https://www.linkedin.com/in/matheussan/"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-                  </a>   
+
+ [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:99matheussan@gmail.com.br)
+ [![Steam Badge](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/Matheus_San/)
+ [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/matheussan_99/)
+ [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheussan/)  
+ [![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+5511959216443) 
     
 #### 🔹Professor Instrutor do Curso de PHP: <a href="https://www.linkedin.com/in/xadrak/">_Adriano Machado_<a/>
 ## 📖Conteúdo, Material e Sincronização Dos Arquivos Referentes Ao Curso Entra21
@@ -26,8 +25,8 @@
 2. [Instalação e Conceitos dos Programas a serem Utilizados](#instalacao)
 3. [Comandos do Git 1.0](#gitHub)
 3. [Comandos do Git 1.1](#github1)    
-4. [Lógica de Programação 1.0](#logica)
-5. [Lógica de Programação 1.1](#logica1) 
+4. [Lógica de Programação - Conceitos](#logica)
+5. [Lógica de Programação - Exercícios ](#logica1) 
 6. [Algoritmo](#algoritmo)
 7. [Outros Conceitos](#conceitos)
 8. [Inglês](#ingles)
@@ -177,10 +176,15 @@ Exemplo Prático de Algoritmo:
     
  ## ✅  05/05 a 09/05 
   
- #### 🔹Conceitos sobre lógica de programação e exercicios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
+ #### 🔹Muitos Conceitos sobre lógica de programação e exercícios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
   
  Exercicios Testados:
+<<<<<<< HEAD
   
+=======
+ 
+    
+>>>>>>> 0c9fdac1b20a76bcc3d5c5c109f51b13e9b79c2b
 [x] [Exercícios - Calculadora](Exemplos/Exercicio_001.md)<br/>
 [x] [Exercícios - Maioridade](Exemplos/Exercicio_002.md)<br/>
 [x] [Exercícios - Média Altura](Exemplos/Exercicio_003.md)<br/>
@@ -191,9 +195,10 @@ Exemplo Prático de Algoritmo:
 [x] [Exercícios - INSS](Exemplos/Exercicio_INSS.portugol)<br/>
 [x] [Exercícios - Laço](Exemplos/Exercicio_Laco.portugol)<br/>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0c9fdac1b20a76bcc3d5c5c109f51b13e9b79c2b
  
-
-
 
 [Volte Para o Início](#sumario)
