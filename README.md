@@ -105,7 +105,7 @@
 
 Exemplo Prático de Algoritmo:
              
-➡️➡️➡️ [x] [Exemplos - Algoritmo](Exemplos/Exemplo_algoritmo.md)
+➡️➡️➡️ [x] [Exemplo - Algoritmo](Exemplos/Exemplo_algoritmo.md)
 
   <p align="right"> Mais informações sobre Algoritmo <a href="https://www.youtube.com/watch?v=dvNp575fwzQ"> AQUI <a/></p>
 
