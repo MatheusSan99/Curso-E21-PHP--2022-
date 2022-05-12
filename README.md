@@ -179,12 +179,7 @@ Exemplo Prático de Algoritmo:
  #### 🔹Muitos Conceitos sobre lógica de programação e exercícios práticos no site <a href="https://portugol-webstudio.cubos.io/ide">Portugol<a/>.
   
  Exercicios Testados:
-<<<<<<< HEAD
-  
-=======
- 
-    
->>>>>>> 0c9fdac1b20a76bcc3d5c5c109f51b13e9b79c2b
+
 [x] [Exercícios - Calculadora](Exemplos/Exercicio_001.md)<br/>
 [x] [Exercícios - Maioridade](Exemplos/Exercicio_002.md)<br/>
 [x] [Exercícios - Média Altura](Exemplos/Exercicio_003.md)<br/>
@@ -195,10 +190,5 @@ Exemplo Prático de Algoritmo:
 [x] [Exercícios - INSS](Exemplos/Exercicio_INSS.portugol)<br/>
 [x] [Exercícios - Laço](Exemplos/Exercicio_Laco.portugol)<br/>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 0c9fdac1b20a76bcc3d5c5c109f51b13e9b79c2b
- 
 
 [Volte Para o Início](#sumario)
