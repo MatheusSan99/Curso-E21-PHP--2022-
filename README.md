@@ -30,7 +30,6 @@
 6. [Algoritmo](#algoritmo)
 7. [Outros Conceitos](#conceitos)
 8. [Inglês 1.0](#ingles)
-9. [Inglês 1.1](#ingles1)
   
 
 <div id='oqueescrum'>
@@ -149,11 +148,13 @@ Exemplo Prático de Algoritmo:
    
 <div id='ingles'>
   
-## ✅  03/05
+## ✅  03/05 -  ✅  10/05
   
 #### 🔹Aula de Inglês.
   
-🔸Aula com diversos Exercicios Práticos de conversação.
+🔸 Aula com diversos Exercicios Práticos de conversação.
+  
+🔸 Exercícios do livro didático 
   
   <br/>
   
@@ -181,7 +182,6 @@ Exemplo Prático de Algoritmo:
   
  Exercicios Testados:
   
- 
     
 [x] [Exercícios - Calculadora](Exemplos/Exercicio_001.md)<br/>
 [x] [Exercícios - Maioridade](Exemplos/Exercicio_002.md)<br/>
@@ -192,13 +192,6 @@ Exemplo Prático de Algoritmo:
 [x] [Exercícios - Área Retângulo 02](Exemplos/Exercicio_Area_Retangulo2.portugol)<br/>
 [x] [Exercícios - INSS](Exemplos/Exercicio_INSS.portugol)<br/>
 [x] [Exercícios - Laço](Exemplos/Exercicio_Laco.portugol)<br/>
-
-
-<div id='ingles1'>
-
-## ✅  10/05  - Aula de Inglês
-
-#### 🔹 Aula com diversos Exercicios Práticos de conversação e exercícios do livro didático.
 
 
 ## ✅  11/05  -  Aula Magna
