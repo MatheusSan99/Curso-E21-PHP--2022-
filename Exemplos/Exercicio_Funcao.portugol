@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+     
+   mensagem()
+      
+  }
+  
+  funcao mensagem(){
+      escreva("Olá bom dia")
+  }
+}
+
+## OU
+
+programa {
+    funcao atividade() {
+        cadeia mensagem
+        mensagem = ("bom dia")
+        escreva(mensagem)
+        }
+ funcao inicio() {
+     atividade()
