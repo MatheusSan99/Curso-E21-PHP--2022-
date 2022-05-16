@@ -5,7 +5,7 @@
  
 # 🥇**Entra21 PHP 2022**
     
-## 💬 Me Encontre por aí: <br/><br/>
+ 💬 Me Encontre por aí: <br/><br/>
 
  [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:99matheussan@gmail.com.br)
  [![Steam Badge](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/Matheus_San/)
@@ -198,5 +198,6 @@ Exemplo Prático de Algoritmo:
 
 #### 🔹 Aula Magna com todos os alunos e responsáveis pelo curso
 
+## ✅  16/05  -  Instalação do XAMP para desenvolvimento em PHP.
 
 [Volte Para o Início](#sumario)
