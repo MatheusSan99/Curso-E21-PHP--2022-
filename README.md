@@ -30,6 +30,7 @@
 6. [Algoritmo](#algoritmo)
 7. [Outros Conceitos](#conceitos)
 8. [Inglês](#ingles)
+9. [PHP](#php)
   
 
 <div id='oqueescrum'>
@@ -199,5 +200,12 @@ Exemplo Prático de Algoritmo:
 #### 🔹 Aula Magna com todos os alunos e responsáveis pelo curso
 
 ## ✅  16/05  -  Instalação do XAMP para desenvolvimento em PHP.
+
+<div id='php'>
+
+## ✅  18/05  -  Configuração do PHP e exercicios (PHP) no VS Code.
+
+[Exercicios - PHP](www)
+
 
 [Volte Para o Início](#sumario)
