@@ -203,7 +203,9 @@ Exemplo Prático de Algoritmo:
 
 <div id='php'>
 
-## ✅  18/05  -  Configuração do PHP e exercicios (PHP) no VS Code.
+## ✅  18/05  -  Configuração do PHP e exercicios (PHP) no VSCode.
+
+## ✅  19/05 - Exercicios PHP.
 
 [Exercicios - PHP](www)
 
