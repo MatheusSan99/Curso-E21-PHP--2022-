@@ -22,10 +22,10 @@ $a = "conteudo da variavel";
 // Isto representa etc. e tal sobre o app x
 
 $codigo_cliente = "";
-$Nome = "Matheus";
+$nome = "Matheus";
 $sobrenome = 'dos Santos';
 echo "$sobrenome, $nome <br>";
-Echo "$SOBRENOME, $nome <br>";
-ECHO "$sobrenome, $Nome <br>";
+// Echo "$SOBRENOME, $nome <br>";
+// ECHO "$sobrenome, $Nome <br>";
 
 ?>
