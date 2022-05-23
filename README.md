@@ -184,15 +184,15 @@ Exemplo Prático de Algoritmo:
  Exercicios Testados:
   
     
-[x] [Exercícios - Calculadora](Exemplos/Exercicio_001.md)<br/>
-[x] [Exercícios - Maioridade](Exemplos/Exercicio_002.md)<br/>
-[x] [Exercícios - Média Altura](Exemplos/Exercicio_003.md)<br/>
-[x] [Exercícios - Loja](Exemplos/Exercicio_004.md)<br/>
-[x] [Exercícios - Dias Passados](Exemplos/Exercicio_005.md)<br/>
-[x] [Exercícios - Área Retângulo 01](Exemplos/Exercicio_Area_Retangulo.portugol)<br/>
-[x] [Exercícios - Área Retângulo 02](Exemplos/Exercicio_Area_Retangulo2.portugol)<br/>
-[x] [Exercícios - INSS](Exemplos/Exercicio_INSS.portugol)<br/>
-[x] [Exercícios - Laço](Exemplos/Exercicio_Laco.portugol)<br/>
+[x] [Exercícios - Calculadora](Exemplos/Exercicios - Portugol/Exercicio_001.md)<br/>
+[x] [Exercícios - Maioridade](Exemplos/Exercicios - Portugol/Exercicio_002.md)<br/>
+[x] [Exercícios - Média Altura](Exemplos/Exercicios - Portugol/Exercicio_003.md)<br/>
+[x] [Exercícios - Loja](Exemplos/Exercicios - Portugol/Exercicio_004.md)<br/>
+[x] [Exercícios - Dias Passados](Exemplos/Exercicios - Portugol/Exercicios - Portugol/Exercicio_005.md)<br/>
+[x] [Exercícios - Área Retângulo 01](Exemplos/Exercicios - Portugol/Exercicio_Area_Retangulo.portugol)<br/>
+[x] [Exercícios - Área Retângulo 02](Exemplos/Exercicios - Portugol/Exercicio_Area_Retangulo2.portugol)<br/>
+[x] [Exercícios - INSS](Exemplos/Exercicios - Portugol/Exercicio_INSS.portugol)<br/>
+[x] [Exercícios - Laço](Exemplos/Exercicios - Portugol/Exercicio_Laco.portugol)<br/>
 
 
 ## ✅  11/05  -  Aula Magna
