@@ -207,7 +207,10 @@ Exemplo Prático de Algoritmo:
 
 ## ✅  (19/05 a 20/05) - Exercicios PHP.
 
-### [Exercicios - PHP](www)
+### [Exercicios Didáticos - PHP](www/Exemplos/)
 
+## ✅  (23/05) - Exercicios Práticos PHP.
+
+### [Exercicios Práticos - PHP](www/Exercicios-PHP)
 
 ## [Volte Para o Início](#sumario)
