@@ -148,15 +148,18 @@ Exemplo Prático de Algoritmo:
   <br/>
    
 <div id='ingles'>
-  
-## ✅  03/05 -  ✅  10/05
-  
+
 #### 🔹Aula de Inglês.
   
 🔸 Aula com diversos Exercicios Práticos de conversação.
   
-🔸 Exercícios do livro didático 
-  
+🔸 Exercícios do livro didático
+
+#### ✅  03/05 
+#### ✅  10/05
+#### ✅  17/05
+#### ✅  24/05
+   
   <br/>
   
 <div id='github1'>  
