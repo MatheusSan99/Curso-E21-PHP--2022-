@@ -5,5 +5,3 @@ $num1 = 1975;
 $tipovariavel = gettype($num1);
 
 echo $num1 . '<br>' . $tipovariavel;
-
-?>
