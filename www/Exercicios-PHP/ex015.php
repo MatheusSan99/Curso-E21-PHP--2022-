@@ -2,7 +2,7 @@
 verifique se o valor de num1 é maior que o de num2.
 Verifique se os valores de num1 e de num2 são iguais.
 Verifique se os valores de num1 e de num2 são diferentes.
-Verifique se o valor de num é é igual ou menor que 100.
+Verifique se o valor de num  é igual ou menor que 100.
 Verifique se os valores de num1 e de num2 são iguais ou menores que sem.
 Verifique se os valores de num1 ou de num2 são iguais ou maiores que 100:
 Verifique se o valor de num1 consta nos elementos de lista1 Sendo num1=100 e lista1= [10,100,1000,10000,100000].

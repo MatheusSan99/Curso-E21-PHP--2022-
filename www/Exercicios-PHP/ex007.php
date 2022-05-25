@@ -2,7 +2,7 @@
 <html>
 <body>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        Número: <input type="number" name="fnumero">
+        Número: <input type="floatval" name="fnumero">
         <input type="submit">
     </form>
 </body>
