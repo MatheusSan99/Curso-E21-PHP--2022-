@@ -1,13 +1,13 @@
 <?php
-// crie uma lista com 5 nomes de pessoas, e imprima os nomes
-$lista = array('Matheus', 'Cassia','Alexandre','Aline','Yato');
+// crie uma turma com 5 nomes de pessoas, e imprima os nomes
+$turma = array('Bruno', 'Marli', 'Willian', 'Debora', 'Junior');
 
-   foreach($lista as $a) {
+foreach ($turma as $a) {
 
-    echo $a . "<br>";
-   } 
+   echo $a . "<br>";
+}
 
-   foreach($lista as $indice => $nome) {
+foreach ($turma as $indice => $nome) {
 
-    echo 'O nome no indíce ' . $indice . " é: " . $nome . '<br>';
-   }
+   echo 'O nome no indíce ' . $indice . " é: " . $nome . '<br>';
+}

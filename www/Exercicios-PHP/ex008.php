@@ -3,7 +3,7 @@
 
 <body>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        Nome: <input type="number" name="fnumero">
+        Nome: <input type="number" step="any" name="fnumero">
         <input type="submit">
     </form>
 </body>
@@ -12,9 +12,10 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $numero = $_POST['fnumero'];
-
-    settype($numero, 'integer');
-    $var = (float)$numero;
-    echo 'O número inserido foi: ' . $numero . '<br> O tipo do número é: ' . gettype($numero) . '<br> O número em float fica: ' . $var . '<br>A conversão foi feita para: ' . gettype($var);;
+    
+    $numero = floatval($numero);
+    $tipo = gettype($numero);
+    
+    echo 'O número em float fica: ' . $numero . '<br>A conversão foi feita para: ' . $tipo;
 }
 ?>
