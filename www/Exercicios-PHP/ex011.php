@@ -18,7 +18,7 @@
 
 <body>
 
-    <form method="post"?>">
+    <form method="post"?>
         Numero1: <input type="number" name="numero1" value=<?php echo $n1?>>
         Numero2: <input type="number" name="numero2" value=<?php echo $n2?>>
         <input type="submit">
