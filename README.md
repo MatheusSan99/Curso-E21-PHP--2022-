@@ -211,6 +211,8 @@ Exemplo Prático de Algoritmo:
 
 ## ✅  (23/05 | 25/05) - Exercicios Práticos PHP.
 
+## ✅  (26/05) - Resolução dos Exercicios Práticos PHP.
+
 ### [Exercicios Práticos - PHP](www/Exercicios-PHP)
 
 ## [Volte Para o Início](#sumario)

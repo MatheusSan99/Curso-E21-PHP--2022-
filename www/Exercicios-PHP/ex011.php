@@ -14,7 +14,10 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $numero = $_POST['fnumero1'];
     $numero2 = $_POST['fnumero2'];
-    echo 'O primeiro número digitado foi: ' . $numero . '<br> O segundo número foi: ' . $numero2 . '<br> A soma dos dois número é igual a: ' . $numero + $numero2;
+    $var1 = 52;
+    $var2 = 106;
+    $var3 = $var1 + $var2;
+    echo 'O primeiro número digitado foi: ' . $numero . '<br> O segundo número foi: ' . $numero2 . '<br> A soma dos dois número é igual a: ' . $numero + $numero2 . '52 + 106 = ' . $var3;
 }
 ?>
 <?php
