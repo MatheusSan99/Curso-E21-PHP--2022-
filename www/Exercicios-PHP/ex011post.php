@@ -5,6 +5,7 @@
         Numero1: <input type="number" name="fnumero1" >
         Numero2: <input type="number" name="fnumero2" >
         <input type="submit">
+        <?php echo $_SERVER["REQUEST_METHOD"]?>
     </form>
 </body>
 </html>
