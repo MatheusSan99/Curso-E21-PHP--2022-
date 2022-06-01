@@ -3,43 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Exercicios PHP</title>
-</head>
-<body>
-    <h1 align="center">Resolução dos Exercicios Propostos</h2> 
-</body>
-</html>
-<head>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    </head>
+    <body>
     <style type="text/css">
-        .titulo{
+        body{
+            background:#DCDCDC;
+        }
+        .titulo{  
+            background:#C0C0C0; 
             font-size: 30px;
             font-weight: bold;
             color: red;
             margin-bottom: 5px;
+            box-sizing: border-box;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 8spx 8px;
         }
         .box {
             display: flex;
             align-items: center;
             flex-flow: row wrap;
             justify-content: center;
+            margin-bottom: 20px;
         }
         .one {
             flex: 1 1 auto;
             font-size: 20px;
         }
         .arquivos{
+            position: absolute;
+            margin-bottom: 10px;
             color: black;
             text-decoration: none;
-            margin-bottom: 15px;
+
         }
         .arquivos:hover {
             font-size: 22px;
             color: darkred;
+            transition: 5ms;
         }
 
     </style>
-</head>
+    <h1 align="center">Resolução dos Exercicios Propostos</h1> 
+    </body>
+
 <?php
 $path = "./";
 $diretorio = scandir($path);
