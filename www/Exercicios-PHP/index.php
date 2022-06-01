@@ -31,7 +31,11 @@
         .arquivos{
             color: black;
             text-decoration: none;
-            margin: 4px 4px;
+            margin-bottom: 15px;
+        }
+        .arquivos:hover {
+            font-size: 22px;
+            color: darkred;
         }
 
     </style>
