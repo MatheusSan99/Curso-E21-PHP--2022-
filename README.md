@@ -155,7 +155,7 @@ Exemplo Prático de Algoritmo:
   
 🔸 Exercícios do livro didático
 
-#### ✅  03/05 - ✅  10/05 - ✅  17/05 - ✅  24/05
+#### ✅  03/05 - ✅  10/05 - ✅  17/05 - ✅  24/05 - ✅  31/05
    
   <br/>
   
@@ -211,7 +211,7 @@ Exemplo Prático de Algoritmo:
 
 ## ✅  (23/05 | 25/05) - Exercicios Práticos PHP.
 
-## ✅  (26/05 | 27/05) - Resolução dos Exercicios Práticos PHP.
+## ✅  (26/05 | 27/05 | 30/05) - Resolução dos Exercicios Práticos PHP.
 
 ### [Exercicios Práticos - PHP](www/Exercicios-PHP)
 
