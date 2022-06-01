@@ -53,7 +53,7 @@
 $path = "./";
 $diretorio = scandir($path);
 echo '<div class="box">';
-echo '<div class="titulo">Indice de arquivos de aula</div>';
+echo '<div class="titulo">Índice de arquivos das aulas</div>';
 echo '</div>';
 $x = 0;
 
