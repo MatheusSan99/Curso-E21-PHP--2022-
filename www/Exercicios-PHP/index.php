@@ -19,7 +19,7 @@
             color: red;
             margin-bottom: 5px;
             box-sizing: border-box;
-            border: 1px solid black;
+            border: 1px hidden black;
             border-radius: 10px;
             padding: 8px 8px;
         }
@@ -28,7 +28,6 @@
             align-items: center;
             flex-flow: row wrap;
             justify-content: center;
-            margin-bottom: 20px;
         }
         .one {
             flex: 1 1 auto;
@@ -39,7 +38,6 @@
             margin-bottom: 10px;
             color: black;
             text-decoration: none;
-
         }
         .arquivos:hover {
             font-size: 22px;
