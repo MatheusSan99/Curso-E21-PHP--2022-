@@ -32,7 +32,6 @@
             color: black;
             text-decoration: none;
             margin: 4px 4px;
-
         }
 
     </style>
