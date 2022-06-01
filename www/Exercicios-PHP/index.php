@@ -21,7 +21,7 @@
             box-sizing: border-box;
             border: 1px solid black;
             border-radius: 10px;
-            padding: 8spx 8px;
+            padding: 8px 8px;
         }
         .box {
             display: flex;
