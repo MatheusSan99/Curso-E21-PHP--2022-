@@ -1,0 +1,54 @@
+body {
+    background: lightgray;
+}
+.dark-mode {
+    background: black;
+    color: white;
+}
+.titulo{  
+    background:#C0C0C0; 
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 1px hidden black;
+    border-radius: 10px;
+    padding: 8px 8px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.one {
+    flex: 1 1 auto;
+    font-size: 20px;
+}
+.arquivos {
+    display: inline-block;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 3px;
+    font-size: 25px;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 8px 2px;
+}
+.arquivos-dark {
+    display: inline-block;
+    text-align: center;
+    color: rgb(115, 194, 218);
+    width: 3px;
+    font-size: 25px;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 8px 2px;
+}
+
+.arquivos:hover {
+    font-size: 22px;
+    color: darkred;
+    transition: 5ms;
+}
