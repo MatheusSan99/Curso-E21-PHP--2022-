@@ -31,7 +31,7 @@ Verifique se num1 e num2 são PAR(es) ou se é IMPAR(es): -->
         if($n1 == $n2) {
             echo 'O primeiro número é igual ao segundo número<br>';
         }
-        if($n1 != $n2) {
+        else{
             echo 'Os números digitados são diferentes!<br>';
         }
         if($n1 <= 100) {
