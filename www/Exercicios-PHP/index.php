@@ -1,6 +1,4 @@
-<!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <title>Exercicios PHP</title>
@@ -11,17 +9,19 @@
         <?php include '../index_css.css'; ?>
     </style>
 </head>
-<h3 id="darkModeText"></h3>
-<div>
-    <button onclick="modoEscuro()">Mudar Tema</button>
-</div>
+    <body>
+    <button class="botao" ondblclick="modoEscuro()">Clique Duas Vezes</button>
+    </body>
 <script>
     var mudaTema = document.body;
-    var mudaCorDaFonte = document.querySelectorAll("#itens-da-lista");
+    var mudaCorDaFonte = document.getElementById("itens-da-lista");
 
     function modoEscuro() {
         mudaTema.classList.toggle("dark-mode");
-        mudaCorDaFonte.classList.toggle("arquivos-dark");
+        mudaCorDaFonte.id = "itens-da-lista";
+        if(mudaTema.classList != "dark-mode") {
+        mudaCorDaFonte.id = "arquivos-light";
+        }
     }
 </script>
 
