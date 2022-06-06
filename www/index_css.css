@@ -1,12 +1,13 @@
 body {
-    background: lightgray;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 0, 0, 1));
+    color: black;
 }
 .dark-mode {
     background: black;
-    color: white;
+    transition: 1s;
 }
-.titulo{  
-    background:#C0C0C0; 
+.titulo {
+    background: #dddddd;
     font-size: 30px;
     font-weight: bold;
     color: red;
@@ -25,6 +26,7 @@ body {
 .one {
     flex: 1 1 auto;
     font-size: 20px;
+    color: black;
 }
 .arquivos {
     display: inline-block;
@@ -36,19 +38,23 @@ body {
     text-decoration: none;
     padding: 8px 2px;
 }
-.arquivos-dark {
-    display: inline-block;
-    text-align: center;
-    color: rgb(115, 194, 218);
-    width: 3px;
-    font-size: 25px;
-    vertical-align: top;
-    text-decoration: none;
-    padding: 8px 2px;
+#itens-da-lista {
+    color: rgb(255, 255, 255);
 }
 
-.arquivos:hover {
+#itens-da-lista:hover {
     font-size: 22px;
-    color: darkred;
+    color: rgb(102, 234, 252);
     transition: 5ms;
+}
+.botao {
+    position: absolute;
+    font-size: 20px;
+    right: 10%;
+    top: 3%;
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid rgb(80, 206, 238);
+    border-radius: 10px;
 }

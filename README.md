@@ -211,7 +211,7 @@ Exemplo Prático de Algoritmo:
 
 ## ✅  (23/05 | 25/05) - Exercicios Práticos PHP.
 
-## ✅  (26/05 | 27/05 | 30/05 | 01/05 | 02/05) - Resolução dos Exercicios Práticos PHP.
+## ✅  (26/05 | 27/05 | 30/05 | 01/06 | 02/06 | 03/06 | 06/06) - Resolução dos Exercicios Práticos PHP.
 
 ### [Exercicios Práticos - PHP](www/Exercicios-PHP/index.php)
 

@@ -27,7 +27,7 @@ Mostre o segundo, terceiro, quarto elemento da lista nomes. Mostre o ultimo elem
         $lista_array = array($nome1,$nome2,$nome3,$nome4,$nome5);
 
         function listaArray($array) {
-            foreach($array as $indice => $salvaIndice) {
+            foreach($array as $indice => $nome) {
                 echo '' . ' Nome: ' . '';
                 print   $array[$indice] ;
                 echo ' | |';

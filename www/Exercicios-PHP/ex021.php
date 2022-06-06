@@ -4,7 +4,7 @@
         <h1 align="center">Progressão Aritmetica</h1>
         <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
         Digite O Primeiro Valor: <input type="number" name="numero">
-        Digite o valor de r:<input type="number" name="r">
+        Digite o valor de r(razão):<input type="number" name="r">
         <input type="submit">
         </form>
     </body>

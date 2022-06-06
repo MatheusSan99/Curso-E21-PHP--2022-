@@ -13,10 +13,17 @@
     if($_SERVER["REQUEST_METHOD"] == "POST") {
         $numero_inicial = $_POST['numero-inicial'];
         $numero_final = $_POST['numero-final'];
+
             if($numero_inicial < $numero_final) {
                 while($numero_inicial <= $numero_final) {
-                    echo $numero_inicial . '<br>';
+                    echo "$numero_inicial <br>";
                     $numero_inicial++;
+                }
+            }
+           else if($numero_inicial > $numero_final) {
+                while($numero_inicial >= $numero_final) {
+                    echo "$numero_inicial <br>";
+                    $numero_inicial--;
                 }
             }
     }

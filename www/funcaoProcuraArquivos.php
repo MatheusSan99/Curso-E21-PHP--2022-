@@ -14,7 +14,7 @@ foreach ($diretorio as $arquivo) {
     }
     echo '<br><a class="arquivos" id="itens-da-lista" href="'  . $path . $arquivo . '">' . "    " . $arquivo . "    " . '</a>';
     $x++;
-    if ($x > 5) {
+    if ($x > 7) {
         echo '</div>';
         $x = 0;
     }

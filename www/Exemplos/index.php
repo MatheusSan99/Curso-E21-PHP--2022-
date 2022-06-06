@@ -1,63 +1,28 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Exercicios PHP</title>
-
+    <?php include '../funcaoProcuraArquivos.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    </head>
-    <body>
-    <style type="text/css">
-        body{
-            background:#DCDCDC;
-        }
-        .titulo{  
-            background:#C0C0C0; 
-            font-size: 30px;
-            font-weight: bold;
-            color: red;
-            margin-bottom: 5px;
-            box-sizing: border-box;
-            border: 1px hidden black;
-            border-radius: 10px;
-            padding: 8px 8px;
-        }
-        .box {
-            display: flex;
-            align-items: center;
-            flex-flow: row wrap;
-            justify-content: center;
-        }
-        .one {
-            flex: 1 1 auto;
-            font-size: 20px;
-        }
-        .arquivos{
-            position: absolute;
-            margin-bottom: 10px;
-            color: black;
-            text-decoration: none;
-        }
-        .arquivos:hover {
-            font-size: 22px;
-            color: darkred;
-            transition: 5ms;
-        }
-
+    <style>
+        <?php include '../index_css.css'; ?>
     </style>
-    <h1 align="center">Resolução dos Exercicios Propostos</h1> 
+</head>
+    <body>
+    <button class="botao" ondblclick="modoEscuro()">Clique Duas Vezes</button>
     </body>
+<script>
+    var mudaTema = document.body;
+    var mudaCorDaFonte = document.getElementById("itens-da-lista");
 
-<?php
-include '../funcaoProcuraArquivos.php';
+    function modoEscuro() {
+        mudaTema.classList.toggle("dark-mode");
+        mudaCorDaFonte.id = "itens-da-lista";
+        if(mudaTema.classList != "dark-mode") {
+        mudaCorDaFonte.id = "arquivos-light";
+        }
+    }
+</script>
 
-
-
-echo "</div>";
-
-?>
-
-
-<script src="../mostraFuncao.js"></script>
 </html>
