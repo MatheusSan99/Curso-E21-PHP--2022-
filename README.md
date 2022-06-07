@@ -217,7 +217,7 @@ Exemplo Prático de Algoritmo:
   <details>
     <summary><b>Veja os Dias Aqui e o Link Aqui</b></summary>
     
-   ### [Exercicios Práticos - PHP](www/Exercicios-PHP/index.php) 
+   ### [Exercicios Práticos - PHP](www/Exercicios-PHP) 
     
   - 26/05 
   - 27/05
