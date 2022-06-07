@@ -6,36 +6,30 @@
  Acuda cadela da Leda caduca. 
  A dama admirou o rim da amada. 
  A Daniela ama a lei? Nada!
- Adias a data da saída. A diva em Argel alegra-me a vida. A droga do dote é todo da gorda. 
-
-1) Converter em array
-2) converter tudo em minuscula ou maiscula
-2.1) remover espacos em branco 
-3) novamente para string 
-4) comparar o inverso <body> -->
-<form  method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-        Digite a primeira palavra: <input type="text" name="palavra1">    <br><br>
-        Digite a segunda palavra: <input type="text" name="palavra2">    <br><br>
-        <input type="submit">
+ Adias a data da saída. A diva em Argel alegra-me a vida. A droga do dote é todo da gorda. -->
+ <body>
+ <style>
+     <?php include '../css_form.css'?>
+ </style>
+<form  class="form" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+<label for="input" class="label">Digite a palavra e irei conferir se corresponde a um palíndromo!</label>
+         <input class="input" type="text" id="input"name="palavra1" placeholder="Digite a palavra ou frase!">    <br><br>
+        <input class="botao" type="submit">
         </form>
     </body>
 </html>
 <?php
     if($_SERVER["REQUEST_METHOD"] == "POST") {
         $primeiraPalavra = strtolower($_POST['palavra1']);
-        $segundaPalavra = strtolower($_POST['palavra2']);
-        //conversão pra array
-        $primeiraPalavra = str_split($primeiraPalavra);
-        $segundaPalavra = str_split($segundaPalavra);
-        echo $primeiraPalavra;
-        str_replace($primeiraPalavra," ", "");
-        echo $primeiraPalavra;
+        $primeiraPalavra = preg_replace("/[^a-z]/", "", $primeiraPalavra);
 
-        $remove_Acento = function($palavra) {
-            $aRemover = array('ç','Ç','é','É','á','Á','ã','Ã');
-            $aPosicionar = array('c','C','e','E','a','A','a','A');
-            return str_replace($aRemover, $aPosicionar, $palavra);
-        };
+          if($primeiraPalavra == strrev($primeiraPalavra)) {
+            echo "<p class='texto'>Legal! Sua palavra é um palindromo</p>";
+            
+          }
+          else {
+              echo "<p class='texto'>Sua palavra não é um palindromo :(</p>";
+          }
     }
     ?>
 </body>

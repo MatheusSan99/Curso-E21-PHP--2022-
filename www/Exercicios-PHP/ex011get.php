@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 11e</title>
-</head>
-
+<style>
+    <?php include '../css_form.css' ?>
+</style>
+<title>Exercício GET</title>
 <body>
     <?php
     if (isset($_GET["n1"])) {
@@ -22,8 +16,8 @@
     }
     ?>
     <form>
-        Número 1 = <input type="number" required name="n1" value=<?php echo $n1; ?>>
-        Número 2 = <input type="number" required name="n2" value=<?php echo $n2; ?>>
+        Número 1 = <input type="number" placeholder="n1" required name="n1" value=<?php echo $n1; ?>>
+        Número 2 = <input type="number" placeholder="n2"required name="n2" value=<?php echo $n2; ?>>
         <input type="submit">
     </form>
 

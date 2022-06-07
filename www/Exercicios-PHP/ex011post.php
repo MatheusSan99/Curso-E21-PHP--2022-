@@ -1,3 +1,8 @@
+<style>
+    <?php include '../css_form.css' ?>
+</style>
+<title>Exercício POST</title>
+<body>
 <body>
     <?php 
     if (isset($_POST["n1"])) {
@@ -12,8 +17,8 @@
         }
         ?>
     <form method="post">
-        Numero1: <input type="number" name="n1" <?php echo $n1?>>
-        Numero2: <input type="number" name="n2" <?php echo $n2?>>
+        Numero1: <input type="number" placeholder="n1" name="n1" <?php echo $n1?>>
+        Numero2: <input type="number" placeholder="n2" name="n2" <?php echo $n2?>>
         <input type="submit">
         <?php echo $_SERVER["REQUEST_METHOD"]?>
     </form>
