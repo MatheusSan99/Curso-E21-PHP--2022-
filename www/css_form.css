@@ -51,7 +51,10 @@ body{
     font-size: 20px;
 }
 .botao:hover {
-    width: 205px;
+    width: 210px;
     height: 81px;
     background: rgb(146, 211, 234);
+    border-radius: 15px;
+    border-color: #000000;
+    transition: 300ms;
 }
