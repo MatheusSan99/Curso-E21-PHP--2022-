@@ -14,6 +14,7 @@ $cadastroPessoas = [
 ];
 
 foreach($cadastroPessoas as $informacoesIndices => $dadosIndice) {
+    //criei uma lista e atribui o valor de cada indice a uma variavel, pegando todas elas do $dadosindice
     ['Nome' => $nome, 'Idade' => $idade, 'CEP' => $cep] = $dadosIndice;
 
     echo "Nome: {$nome}<br>";
