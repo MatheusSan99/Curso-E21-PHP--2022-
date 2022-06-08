@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Ex 025</title>
+<title>Ex 25</title>
     <form action="" method="post">
         <label for="numeroInput" class="label">Digite um número</label>
         <input class="input" type="text" name="numeroInput" id="numeroInput" placeholder="Verificarei se ele é primo..." onfocus="this.value=''">
