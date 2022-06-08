@@ -20,6 +20,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $idade_adicionar = $_POST['idade'];
     $cep_adicionar = $_POST['cep'];
  
+    $conta_itens = ???? contar quantos itens tem a tua array atual. 
+    $novocodigo ( $conta_itens +1)
+    array_splice($cadastroPessoas,$novocodigo, $novocodigo => array($PessoasAAdicionar))
+
     $PessoasAAdicionar[] = [
         'Nome' =>  $nome_adicionar,
         'Idade' => $idade_adicionar,
