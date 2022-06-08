@@ -12,13 +12,15 @@ $cadastroPessoas = [
 4 => ['Nome' => 'Thiago', 'Idade' => 25, 'CEP' => '789'],
 5 => ['Nome' => 'Bruno', 'Idade' => 26, 'CEP' => '000'],
 ];
-
-foreach($cadastroPessoas as $informacoesIndices => $dadosIndice) {
+function exibeCadastro(array &$cadastro) {
+foreach($cadastro as $informacoesIndices => $dadosIndice) {
     //criei uma lista e atribui o valor de cada indice a uma variavel, pegando todas elas do $dadosindice
+
     ['Nome' => $nome, 'Idade' => $idade, 'CEP' => $cep] = $dadosIndice;
 
     echo "Nome: {$nome}<br>";
     echo "Idade: {$idade}<br>";
     echo "CEP: {$cep}<br>";
+}
 }
 ?>
