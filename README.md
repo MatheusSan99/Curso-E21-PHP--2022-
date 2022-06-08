@@ -155,7 +155,7 @@ Exemplo Prático de Algoritmo:
   
 🔸 Exercícios do livro didático
 
-#### ✅  03/05 - ✅  10/05 - ✅  17/05 - ✅  24/05
+#### ✅  03/05 - ✅  10/05 - ✅  17/05 - ✅  24/05 - ✅  31/05
    
   <br/>
   
@@ -204,15 +204,30 @@ Exemplo Prático de Algoritmo:
 <div id='php'>
 
 ## ✅  18/05  -  Configuração do PHP e exercicios (PHP) no VSCode.
-
+  
 ## ✅  (19/05 a 20/05) - Exercicios PHP.
 
 ### [Exercicios Didáticos - PHP](www/Exemplos/)
-
+  
 ## ✅  (23/05 | 25/05) - Exercicios Práticos PHP.
 
-## ✅  (26/05) - Resolução dos Exercicios Práticos PHP.
+## ✅  Dias Das Aulas De Resolução Dos Exercicios Práticos PHP.
+  
 
-### [Exercicios Práticos - PHP](www/Exercicios-PHP)
-
-## [Volte Para o Início](#sumario)
+  <details>
+    <summary><b>Veja os Dias Aqui e o Link Aqui</b></summary>
+    
+   ### [Exercicios Práticos - PHP](www/Exercicios-PHP) 
+    
+  - 26/05 
+  - 27/05
+  - 30/05
+  - 01/06
+  - 02/06
+  - 03/06 
+  - 06/06  
+    
+  </details>
+  
+  
+  ## [Volte Para o Início](#sumario)

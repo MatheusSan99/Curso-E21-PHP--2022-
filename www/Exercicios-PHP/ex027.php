@@ -4,8 +4,10 @@ Adicione um elemento na lista nomes.
 Adicione um elemento na segunda posição da lista nomes.
 Remova o elemento Carlos da lista nomes.
 Mostre o segundo, terceiro, quarto elemento da lista nomes. Mostre o ultimo elemento da lista. -->
-<!DOCTYPE html>
-<html>
+<style>
+    <?php include '../css_form.css' ?>
+</style>
+<title>Exercício 22</title>
     <body>
         <form  method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
         Digite o 1° nome: <input type="text" name="nome1">    <br><br>
@@ -16,7 +18,6 @@ Mostre o segundo, terceiro, quarto elemento da lista nomes. Mostre o ultimo elem
         <input type="submit">   
         </form>
     </body>
-</html>
 <?php
     if($_SERVER["REQUEST_METHOD"] == "POST") {
         $nome1 = $_POST['nome1'];
@@ -27,7 +28,7 @@ Mostre o segundo, terceiro, quarto elemento da lista nomes. Mostre o ultimo elem
         $lista_array = array($nome1,$nome2,$nome3,$nome4,$nome5);
 
         function listaArray($array) {
-            foreach($array as $indice => $salvaIndice) {
+            foreach($array as $indice => $nome) {
                 echo '' . ' Nome: ' . '';
                 print   $array[$indice] ;
                 echo ' | |';

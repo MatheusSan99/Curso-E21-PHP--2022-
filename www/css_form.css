@@ -1,0 +1,60 @@
+body{
+    background: lightgray;
+    font-size: 25px;
+}
+.label{
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.input {
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-style: border-box;
+    border: 1px solid black; 
+    border-radius: 10px; 
+}
+.texto {
+    font-size: 22px;
+    position: absolute;
+    top: 44%;
+    left: 40%;
+    margin-right: -50%; 
+}
+.texto-esquerda {
+    font-size: 20px;
+ 
+}
+.botao{
+    width: 200px;
+    height: 80px;
+    margin: 0;
+    background: rgb(113, 205, 238);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-style: border-box;
+    border: 1px solid black; 
+    border-radius: 10px; 
+    cursor: pointer;
+    font-size: 20px;
+}
+.botao:hover {
+    width: 210px;
+    height: 81px;
+    background: rgb(146, 211, 234);
+    border-radius: 15px;
+    border-color: #000000;
+    transition: 300ms;
+}

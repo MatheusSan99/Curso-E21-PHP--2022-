@@ -1,14 +1,16 @@
 <!-- Crie um programa que exibe em tela a tabuada de um determinado número fornecido pelo usuário. -->
-
-<html>
+<style>
+    <?php include '../css_form.css' ?>
+</style>
+<title>Ex 22</title>
     <body>
-    <h1 align="center">Tabuada</h1>
+  <h1 style="text-align: center">Tabuada</h1>
         <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-        Digite o número a ser calculado: <input type="number" name="numero">
-        <input type="submit">
+     <label class="label" for="campo">Digite o número a ser calculado:</label>
+         <input class="input" type="number" name="numero">
+        <input class="botao" type="submit">
         </form>
     </body>
-</html>
 <?php
     if($_SERVER["REQUEST_METHOD"] == "POST") {
         $numero = $_POST['numero'];

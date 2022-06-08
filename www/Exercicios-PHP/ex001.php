@@ -1,9 +1,14 @@
+<!-- Crie tres variaveis em tipos diferentes. -->
+<style>
+    <?php include '../css_form.css' ?>
+</style>
+<title>Ex 1</title>
 <?php
-//Crie tres variaveis em tipos diferentes.
+
 $a = 1;
 $b = '2';
 $c = TRUE;
 
 
-print($a . "<br>" . $b . "<br>" . $c);
+print("$a |  $b | $c");
 ?>
