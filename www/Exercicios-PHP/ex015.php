@@ -11,7 +11,7 @@ Verifique se num1 e num2 são PAR(es) ou se é IMPAR(es): -->
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 15</title>
+<title>Ex 15</title>
     <body>
         <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
         Digite o Número 1: <input type="number" name="numero1">

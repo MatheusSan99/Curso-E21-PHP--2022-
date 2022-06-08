@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 24</title>
+<title>Ex 24</title>
 <?php
 $inicio = 0;
 $fim = 100;

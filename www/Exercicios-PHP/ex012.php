@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 12</title>
+<title>Ex 12</title>
 <body>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         Numero1: <input type="number" step="any" required name="fnumero1" >

@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 21</title>
+<title>Ex 21</title>
     <body>
         <h1 style="text-align: center">Progressão Aritmetica</h1>
         <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">

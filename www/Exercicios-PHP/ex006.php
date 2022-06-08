@@ -2,7 +2,7 @@
 <style>
         <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 6</title>
+<title>Ex 6</title>
 <?php
 $num1 = 1975;
 $tipovariavel = gettype($num1);

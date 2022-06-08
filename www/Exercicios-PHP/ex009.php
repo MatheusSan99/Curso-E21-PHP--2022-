@@ -2,7 +2,7 @@
 <style>
    <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 9</title>
+<title>Ex 9</title>
 <?php
 $turma = array('Bruno', 'Marli', 'Willian', 'Debora', 'Junior');
 

@@ -1,7 +1,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício POST</title>
+<title>Ex POST</title>
 <body>
 <body>
     <?php 

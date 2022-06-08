@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 18</title>
+<title>Ex 18</title>
 <?php
 
 $listaDeCompras = array('Arroz','Feijão','Frango','Suco','Produtos de Limpeza','Macarrão','Doces','Frutas');

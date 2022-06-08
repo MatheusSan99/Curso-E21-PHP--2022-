@@ -7,7 +7,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 11</title>
+<title>Ex 11</title>
 
 <body>
     <?php

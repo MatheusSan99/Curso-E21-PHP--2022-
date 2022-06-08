@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 3</title>
+<title>Ex 3</title>
 <?php
 
 // Este é um comentário de mais de uma linha

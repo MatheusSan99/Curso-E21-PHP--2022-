@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 4</title>
+<title>Ex 4</title>
 <?php
 
 echo '<h2>Olá Mundo</h2>';

@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 8</title>
+<title>Ex 8</title>
 
 <body>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">

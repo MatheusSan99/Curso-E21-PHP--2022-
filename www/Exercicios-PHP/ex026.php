@@ -11,13 +11,13 @@
  <style>
      <?php include '../css_form.css'?>
  </style>
+ <title>Ex 26</title>
 <form  class="form" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 <label for="input" class="label">Digite a palavra e irei conferir se corresponde a um palíndromo!</label>
          <input class="input" type="text" id="input"name="palavra1" placeholder="Digite a palavra ou frase!">    <br><br>
         <input class="botao" type="submit">
         </form>
     </body>
-</html>
 <?php
     if($_SERVER["REQUEST_METHOD"] == "POST") {
         $primeiraPalavra = strtolower($_POST['palavra1']);

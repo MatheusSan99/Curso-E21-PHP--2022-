@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 10</title>
+<title>Ex 10</title>
 <?php
 $lista = array('Matheus', 'Cassia', 'Alexandre', 'Aline', 'Yato');
 print_r($lista);

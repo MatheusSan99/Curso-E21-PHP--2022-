@@ -1,7 +1,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício GET</title>
+<title>Ex GET</title>
 <body>
     <?php
     if (isset($_GET["n1"])) {

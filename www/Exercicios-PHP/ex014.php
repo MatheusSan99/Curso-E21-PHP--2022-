@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 14</title>
+<title>Ex 14</title>
     <body>
         <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
         <label class="label" for="campo-input">Digite um número:</label>

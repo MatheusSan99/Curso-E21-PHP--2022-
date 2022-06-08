@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 16</title>
+<title>Ex 16</title>
 <?php
 
         for($varInicial = 0; $varInicial <= 10; $varInicial++ ) {

@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 20</title>
+<title>Ex 20</title>
 <?php
 $maximo = 20;
     for($i = 0; $i <= $maximo; $i++) {

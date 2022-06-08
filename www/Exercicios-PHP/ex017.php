@@ -2,7 +2,7 @@
 <style>
     <?php include '../css_form.css' ?>
 </style>
-<title>Exercício 17</title>
+<title>Ex 17</title>
 <?php
 
 $projeto = 'Projeto Entra21';
