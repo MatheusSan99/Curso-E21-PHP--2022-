@@ -4,14 +4,20 @@
 </style>
 <title>Exercício 28</title>
 <?php
+$marli = ['Nome' => 'Marli', 'Idade' => 30, 'CEP' => '123'];
+$willian = ['Nome' => 'Willian', 'Idade' => 18, 'CEP' => '234'];
+$claudio = ['Nome' => 'Cláudio', 'Idade' => 27, 'CEP' => '456'];
+$thiago = ['Nome' => 'Thiago', 'Idade' => 25, 'CEP' => '789'];
+$bruno = ['Nome' => 'Bruno', 'Idade' => 26, 'CEP' => '000'];
+$debora = ['Nome' => 'Debora', 'Idade' => 20, 'CEP' => '121'];
 
 $cadastroPessoas = [
-1 => ['Nome' => 'Marli', 'Idade' => 30, 'CEP' => '123'],
-2 => ['Nome' => 'Willian', 'Idade' => 18, 'CEP' => '234'],
-3 => ['Nome' => 'Cláudio', 'Idade' => 27, 'CEP' => '456'],
-4 => ['Nome' => 'Thiago', 'Idade' => 25, 'CEP' => '789'],
-5 => ['Nome' => 'Bruno', 'Idade' => 26, 'CEP' => '000'],
-];
+    1 => $bruno,
+    2 => $claudio,
+    3 => $debora,
+    4 => $marli,
+    5 => $thiago,
+    6=> $willian];
 function exibeCadastro(array $cadastro) 
 {
 foreach($cadastro as $informacoesIndices => $dadosIndice) {
