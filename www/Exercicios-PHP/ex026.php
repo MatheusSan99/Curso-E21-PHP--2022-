@@ -7,10 +7,13 @@
  A dama admirou o rim da amada. 
  A Daniela ama a lei? Nada!
  Adias a data da saída. A diva em Argel alegra-me a vida. A droga do dote é todo da gorda. -->
- <body>
- <style>
+<head>
+<style>
      <?php include '../css_form.css'?>
  </style>
+</head>
+ <body>
+ 
  <title>Ex 26</title>
 <form  class="form" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 <label for="input" class="label">Digite a palavra e irei conferir se corresponde a um palíndromo!</label>
