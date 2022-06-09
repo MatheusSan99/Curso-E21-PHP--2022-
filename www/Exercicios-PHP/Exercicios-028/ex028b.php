@@ -2,7 +2,7 @@
 // Utilizando o exercicio acima, (mantenha os 5 cadastros ja existentes e) faça um formulario permita insersão de novas pessoas.
 require_once 'ex028.php';
 ?>
-
+<title>Ex 28b</title>
 <body>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <label for="nome">Digite o Nome:</label>
@@ -21,13 +21,11 @@ require_once 'ex028.php';
         $idade_adicionar = $_POST['idade'];
         $cep_adicionar = $_POST['cep'];
 
-        $PessoasAAdicionar[] = [
+        $adicionarPessoas = [
             'Nome' =>  $nome_adicionar,
             'Idade' => $idade_adicionar,
             'CEP' => $cep_adicionar
-        ];
-       echo count($cadastroPessoas); 
+        ];  
     }
-    ?>
-
+?>
 </body>
