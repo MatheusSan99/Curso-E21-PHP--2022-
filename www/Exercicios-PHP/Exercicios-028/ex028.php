@@ -18,6 +18,8 @@ $cadastroPessoas = [
     4 => $marli,
     5 => $thiago,
     6=> $willian];
+
+    $teste = [0 => $cadastroPessoas];
 function exibeCadastro(array $cadastro) 
 {
 foreach($cadastro as $informacoesIndices => $dadosIndice) {
@@ -30,4 +32,5 @@ foreach($cadastro as $informacoesIndices => $dadosIndice) {
     echo "CEP: {$cep}<br>";
 }
 }
+
 ?>
