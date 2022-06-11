@@ -1,0 +1,15 @@
+.informacoes-gerais {
+    font-size: 25px;
+    background: gray;
+    border: 1px solid black;
+}
+.tabela {
+    width: 300px;
+}
+.edit-table {
+    font-size: 25px;
+}
+.select-user {
+    margin-top: 10px;
+    display: block;
+}

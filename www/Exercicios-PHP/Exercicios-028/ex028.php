@@ -17,7 +17,7 @@ $cadastroPessoas = [
     2 => $claudio,
     3 => $marli,
     4 => $thiago,
-    5=> $willian];
+    5 => $willian];
 
 function exibeCadastro(array $cadastro) 
 {
