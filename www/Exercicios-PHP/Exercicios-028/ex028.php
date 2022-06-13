@@ -19,17 +19,8 @@ $cadastroPessoas = [
     4 => $thiago,
     5 => $willian];
 
-function exibeCadastro(array $cadastro) 
-{
-foreach($cadastro as $informacoesIndices => $dadosIndice) {
-    //criei uma lista e atribui o valor de cada indice a uma variavel, pegando todas elas do $dadosindice
-    
-    ['Nome' => $nome, 'Idade' => $idade, 'CEP' => $cep] = $dadosIndice;
-
-    echo "Nome: {$nome}<br>";
-    echo "Idade: {$idade}<br>";
-    echo "CEP: {$cep}<br>";
-}
-}
+    if ( !$_SESSION['cadastro']){
+        $_SESSION['cadastro'] = $cadastroPessoas;
+    }
 
 ?>
