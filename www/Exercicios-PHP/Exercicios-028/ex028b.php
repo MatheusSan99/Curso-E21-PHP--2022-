@@ -31,7 +31,7 @@ require_once 'ex028.php';
     if (isset($_POST['adicionar'])) {
         array_push(
             $_SESSION['cadastro'],
-            array("Nome" => $_POST['nome'], "Idade" => $_POST['idade'], 'CEP' => $_POST['CEP'])
+            array("Nome" => $_POST['nome'], "Idade" => $_POST['idade'], "CEP" => $_POST['CEP'])
         );
     }
 
@@ -45,9 +45,6 @@ require_once 'ex028.php';
         echo "</div>";
         echo "<br>";
     }
-
-
-
     ?>
     <form method="post">
         <input type="submit" name="restaura" value="restaura">
