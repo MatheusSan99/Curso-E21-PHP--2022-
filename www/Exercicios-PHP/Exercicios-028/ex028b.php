@@ -20,30 +20,35 @@ require_once 'ex028.php';
 
             <label for="cep">Digite o CEP:</label>
             <li class="primeira-lista"> <input type="number" name="CEP" placeholder="123.456.789-0"></li>
-            <li class="primeira-lista"><input type="submit" value="adicionar"></li>
+            <li class="primeira-lista"><input type="submit" value="adicionar" name="adicionar"></li>
+            
         </ul>
     </form>
     <?php
+
+
     if (isset($_POST['restaura'])) {
         $_SESSION['cadastro'] = $cadastroPessoas;
     }
 
+
     if (isset($_POST['adicionar'])) {
-        array_push(
-            $_SESSION['cadastro'],
-            array("Nome" => $_POST['nome'], "Idade" => $_POST['idade'], "CEP" => $_POST['CEP'])
+        array_push($_SESSION['cadastro'], array("Nome" => $_POST['nome'], "Idade" => $_POST['idade'], "CEP" => $_POST['CEP'])
         );
     }
 
     foreach ($_SESSION['cadastro'] as $indice) {
         ['Nome' => $nome, 'Idade' => $idade, 'CEP' => $cep] = $indice;
-        echo "<div class='tabela'>";
-
+        echo "<a href='ex028.php'><input type='submit' name='delete' value='Deletar {$nome}'><a/>";
         echo "<div class='informacoes-gerais'> Nome: {$nome} </div>";
         echo "<div class='informacoes-gerais'> Idade: {$idade}</div>";
         echo "<div class='informacoes-gerais'> CEP: {$cep}</div>";
+        
         echo "</div>";
         echo "<br>";
+    }
+    if($_GET['delete']) {
+        array_splice($_SESSION['cadastro'], $_GET['delete'],1);
     }
     ?>
     <form method="post">
