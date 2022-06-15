@@ -46,13 +46,13 @@ require_once 'ex028.php';
 
     foreach ($_SESSION['cadastro'] as $indice) {
         ['Nome' => $nome, 'Idade' => $idade, 'CEP' => $cep] = $indice;
-        echo "<a href='ex028_apaga.php'><input type='submit' name='apagar' value='Apagar Cadastro' {$nome}'><a/>";
+        
         echo "<div class='informacoes-gerais'> Nome: {$nome} </div>";
         echo "<div class='informacoes-gerais'> Idade: {$idade}</div>";
         echo "<div class='informacoes-gerais'> CEP: {$cep}</div>";
-
         echo "</div>";
         echo "<br>";
+        echo "<a href='ex028_apaga.php'><input type='submit' name='apagar' value='Apagar Cadastro' {$nome}'><a/>";
     }
 
     ?>
