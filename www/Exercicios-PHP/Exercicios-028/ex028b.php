@@ -26,6 +26,29 @@ require_once 'ex028.php';
 
         </ul>
     </form>
+<<<<<<< HEAD
+<?php 
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nome_adicionar = $_POST['nome'];
+    $idade_adicionar = $_POST['idade'];
+    $cep_adicionar = $_POST['cep'];
+ 
+    // $conta_itens = ???? contar quantos itens tem a tua array atual. 
+    // $novocodigo ( $conta_itens +1)
+    array_splice($cadastroPessoas,$novocodigo, $novocodigo => array($PessoasAAdicionar))
+
+    $PessoasAAdicionar[] = [
+        'Nome' =>  $nome_adicionar,
+        'Idade' => $idade_adicionar,
+        'CEP' => $cep_adicionar
+    ];
+   
+array_push($cadastroPessoas, $PessoasAAdicionar);
+ echo exibeCadastro($cadastroPessoas);
+
+}
+?>
+=======
     <?php
     if (isset($_GET['apagar'])) {
         array_splice($_SESSION['cadastro'], $_GET['apagar'], 1);
@@ -34,6 +57,7 @@ require_once 'ex028.php';
     if (isset($_POST['restaura'])) {
         $_SESSION['cadastro'] = $cadastroPessoas;
     }
+>>>>>>> f50afaa8566484f15eb88fe0019753db2582e657
 
 
     if (isset($_POST['adicionar'])) {
