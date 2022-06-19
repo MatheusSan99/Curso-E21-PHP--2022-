@@ -15,34 +15,43 @@ require_once 'ex028.php';
 <body>
     <form method="post" action="">
         <ul class="lista" id="adiciona_na_lista">
-            <label for="nome">Digite o Nome:</label>
-            <li class="primeira-lista"><input type="text" name="nome" placeholder="Insira o nome sem acentos"></li>
 
-            <label for="idade">Digite a Idade:</label>
-            <li class="primeira-lista"><input type="number" name="idade" placeholder="1 a 100"></li>
+            <li class="primeira-lista">
+                <input type="text" name="nome" id="nome" placeholder="Insira o nome sem acentos">
+                    <label for="nome">Digite o Nome:</label>
+            </li>
 
-            <label for="cep">Digite o CEP:</label>
-            <li class="primeira-lista"> <input type="number" name="CEP" placeholder="123.456.789-0"></li>
-            <li class="primeira-lista"><input type="submit" value="adicionar" name="adicionar"></li>
+            <li class="primeira-lista">
+                <input type="number" name="idade"  id="idade" placeholder="1 a 100">
+                <label for="idade">Digite a Idade:</label>
+            </li>
+
+            <li class="primeira-lista">
+                <input type="number" name="CEP" id="cep" placeholder="123.456.789-0">
+                <label for="cep">Digite o CEP:</label>
+            </li>
+
+            <li class="primeira-lista">
+                <input type="submit" value="adicionar" name="adicionar">
+            </li>
 
         </ul>
     </form>
 
     <?php
     if (isset($_GET['apagar'])) {
-        array_splice($_SESSION['cadastro'], $_GET['apagar'], 1);
+       $apagarCadastro = $_GET['apagar'];
     }
 
     if (isset($_POST['restaura'])) {
-        $_SESSION['cadastro'] = $cadastroPessoas;
+        if (!empty($cadastroPessoas)) {
+            $_SESSION['cadastro'] = $cadastroPessoas;
+        }
     }
 
 
     if (isset($_POST['adicionar'])) {
-        array_push(
-            $_SESSION['cadastro'],
-            array("Nome" => $_POST['nome'], "Idade" => $_POST['idade'], "CEP" => $_POST['CEP'])
-        );
+        $_SESSION['cadastro'][] = array("Nome" => $_POST['nome'], "Idade" => $_POST['idade'], "CEP" => $_POST['CEP']);
     }
 
     foreach ($_SESSION['cadastro'] as $indice) {
@@ -53,7 +62,7 @@ require_once 'ex028.php';
         echo "<div class='informacoes-gerais'> CEP: {$cep}</div>";
         echo "</div>";
         echo "<br>";
-        echo "<a href='ex028_apaga.php'><input type='submit' name='apagar' value='Apagar Cadastro' {$nome}'><a/>";
+        echo "<a href='ex028_apaga.php'><input type='submit' name='apagar' value='Apagar {$nome}'><a/>";
     }
 
     ?>
