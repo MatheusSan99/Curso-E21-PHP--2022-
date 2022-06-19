@@ -109,7 +109,7 @@
 
 Exemplo Prático de Algoritmo:
              
-➡️➡️➡️ [x] [Exemplo - Algoritmo](Exemplos/Exemplo_algoritmo.md)
+➡️➡️➡️ [x] [Exemplo - Algoritmo](Exercicios-Didaticos/Exemplo_algoritmo.md)
 
   <p style="text-align:right"> Mais informações sobre Algoritmo <a href="https://www.youtube.com/watch?v=dvNp575fwzQ"> AQUI </a></p>
 
@@ -214,7 +214,7 @@ Exemplo Prático de Algoritmo:
   
 ## ✅  (19/05 a 20/05) - Exercicios PHP.
 
-### [Exercicios Didáticos - PHP](www/Exemplos)
+### [Exercicios Didáticos - PHP](www/Exercicios-Didaticos)
   
 ## ✅  (23/05 | 25/05) - Exercicios Práticos PHP.
 
