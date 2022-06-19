@@ -1,11 +1,11 @@
 <div id='sumario'>
   
-  <div align="center">
+  <div style="text-align:center">
  
  
 # 🥇**Entra21 PHP 2022**
     
- 💬 Me Encontre por aí: <br/><br/>
+ 💬 Me Encontre por aí: <br><br>
 
  [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:99matheussan@gmail.com.br)
  [![Steam Badge](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/Matheus_San/)
@@ -31,7 +31,7 @@
 7. [Outros Conceitos](#conceitos)
 8. [Inglês](#ingles)
 9. [PHP](#php)
-  
+  </div>
 
 <div id='oqueescrum'>
   
@@ -53,8 +53,10 @@
   - O PO, responsável por decidir quais recursos e recursos devem ser construidos e qual a ordem deles (Proriza os recursos).  
   - Scrum master, responsável por ajudar a equipe a desenvolver o projeto.    
   - E o Dev Team, aqueles que construirão o projeto.
- <p align="right"> Créditos e mais informações<a href="https://www.youtube.com/watch?v=XfvQWnRgxG0&t=446s"> AQUI<a/></p><br/>
-   
+ <p style="text-align:right"> Créditos e mais informações<a href="https://www.youtube.com/watch?v=XfvQWnRgxG0&t=446s"> AQUI</a></p><br>
+
+</div>
+
 <div id='instalacao'>
   
 ## ✅ 26/04
@@ -69,48 +71,49 @@
   
   🔸Git Download <a href="https://git-scm.com/downloads">**_Aqui_**</a>.
   
-   Git é um Software usado para registrar o histórico de edições de qualquer tipo de arquivo.  <br/>  <br/>
+   Git é um Software usado para registrar o histórico de edições de qualquer tipo de arquivo.  <br>  <br>
   🔹Conceitos básicos sobre clonar repositório e subir arquivos pra nuvem. 
-  <br/>
-  
+  <br>
+  </div>
 <div id='gitHub'> 
   
 ## ✅  27/04
 
 #### 🔹Comandos mais usados no Git
-#### 🔹Aula prática clonando repositório e trabalhando no mesmo projeto simultaneamente com um colega de classe! <br/>
+#### 🔹Aula prática clonando repositório e trabalhando no mesmo projeto simultaneamente com um colega de classe! <br>
 
-| Comando | Resultado | 
-| ------|-----|
-| git init | Cria Um repositório (Deixa Disponível) |
-| git clone + URL | Clona Um Repositório |  
-| git add . | Adiciona As Alterações Ao Commit |
-| git commit -m + "" | Arquivos Para Enviar |  
-| git push | Envia Os Arquivos Pra Nuvem | 
-| git pull | Baixa As Atualizações Do Repositório |  
-| rm + Nome Item | Apaga Item |
-| cd .. | Volta Um Diretório |
-| cd + Nome Diretorio | Entra Na Pasta escolhida |
-| ls | Lista O Que Tem Na Pasta |
-| pwd | Mostra A Localização Atual |
-| clear | Limpa Tela |
-| cp + Nome do Arquivo | Copia Arquivo |
-| mkdir + Nome Diretório | Cria uma Pasta | <br/><br/>
+| Comando                | Resultado                              | 
+|------------------------|----------------------------------------|
+| git init               | Cria Um repositório (Deixa Disponível) |
+| git clone + URL        | Clona Um Repositório                   |  
+| git add .              | Adiciona As Alterações Ao Commit       |
+| git commit -m + ""     | Arquivos Para Enviar                   |  
+| git push               | Envia Os Arquivos Pra Nuvem            | 
+| git pull               | Baixa As Atualizações Do Repositório   |  
+| rm + Nome Item         | Apaga Item                             |
+| cd ..                  | Volta Um Diretório                     |
+| cd + Nome Diretorio    | Entra Na Pasta escolhida               |
+| ls                     | Lista O Que Tem Na Pasta               |
+| pwd                    | Mostra A Localização Atual             |
+| clear                  | Limpa Tela                             |
+| cp + Nome do Arquivo   | Copia Arquivo                          |
+| mkdir + Nome Diretório | Cria uma Pasta                         | <br><br>
 
+</div>
 <div id='logica'> 
   
 ## ✅  28/04
   
 #### 🔹Entrando no Módulo de Lógica de Programação
-#### 🔹Aula prática com mais alguns testes no Git e conceitos sobre lógica de Programação <br/>
+#### 🔹Aula prática com mais alguns testes no Git e conceitos sobre lógica de Programação <br>
 
 Exemplo Prático de Algoritmo:
              
 ➡️➡️➡️ [x] [Exemplo - Algoritmo](Exemplos/Exemplo_algoritmo.md)
 
-  <p align="right"> Mais informações sobre Algoritmo <a href="https://www.youtube.com/watch?v=dvNp575fwzQ"> AQUI <a/></p>
+  <p style="text-align:right"> Mais informações sobre Algoritmo <a href="https://www.youtube.com/watch?v=dvNp575fwzQ"> AQUI </a></p>
 
-<br/>
+<br>
     
 <div id='algoritmo'>  
   
@@ -121,9 +124,9 @@ Exemplo Prático de Algoritmo:
 - Mais alguns conceitos e explicações sobre Scrum, Kanban e outros recursos do Trello.
 - Exemplos e conceitos sobre como um projeto pode e deve ser planejado antecipadamente para que possa se alcançar o dobro do resultado com metade do esforço, ampliando os resultados e entregando um serviço com muito mais qualidade.
 - Exemplo prático sobre como planejar e analisar um projeto real com planejamento e fluxograma.
-  <br/>
+  <br>
   
-  
+</div> 
  <div id='conceitos'>   
    
  ## ✅  02/05
@@ -136,16 +139,18 @@ Exemplo Prático de Algoritmo:
 
 - FullStack: Full stack developer é quem trabalhar com Front End e Back End.
    
-| Comando | Exemplo | 
-| ------|-----|
-| int | -1, -5, 5, 10 |
-| float | 1.5, -2.5 |  
-| char | 'a', 'b' |   
-| string | 'exemplo' |   
-| boolean | true ou false |
-| array | exemplo[1,2,3], exemplo['a', 'b'] |   
+| Comando | Exemplo                           | 
+|---------|-----------------------------------|
+| int     | -1, -5, 5, 10                     |
+| float   | 1.5, -2.5                         |  
+| char    | 'a', 'b'                          |   
+| string  | 'exemplo'                         |   
+| boolean | true ou false                     |
+| array   | exemplo[1,2,3], exemplo['a', 'b'] |   
    
-  <br/>
+
+</div>
+  <br>
    
 <div id='ingles'>
 
@@ -156,8 +161,8 @@ Exemplo Prático de Algoritmo:
 🔸 Exercícios do livro didático
 
 #### ✅ 03/05 - ✅ 10/05 - ✅ 17/05 - ✅ 24/05 - ✅ 31/05 - ✅ 07/06
-   
-  <br/>
+   </div>
+  <br>
   
 <div id='github1'>  
   
@@ -172,10 +177,11 @@ Exemplo Prático de Algoritmo:
 - git clean -fd 
 - git restore
   
-🔸 Novas informações a respeito do direcionamento do curso e futuros projetos <br/>
-🔸 Divisão das equipes para os futuros projetos. <br/>
+</div>
+🔸 Novas informações a respeito do direcionamento do curso e futuros projetos <br>
+🔸 Divisão das equipes para os futuros projetos. <br>
   
-  <div id='logica1'>
+<div id='logica1'>
     
  ## ✅  (05/05 a 09/05)  -  ✅  (12/05 a 13/05)
   
@@ -184,16 +190,16 @@ Exemplo Prático de Algoritmo:
  Exercicios Testados:
   
     
-[x] [Exercícios - Calculadora](Exemplos/Exercicios-Portugol/Exercicio_001.md)<br/>
-[x] [Exercícios - Maioridade](Exemplos/Exercicios-Portugol/Exercicio_002.md)<br/>
-[x] [Exercícios - Média Altura](Exemplos/Exercicios-Portugol/Exercicio_003.md)<br/>
-[x] [Exercícios - Loja](Exemplos/Exercicios-Portugol/Exercicio_004.md)<br/>
-[x] [Exercícios - Dias Passados](Exemplos/Exercicios-Portugol/Exercicios-Portugol/Exercicio_005.md)<br/>
-[x] [Exercícios - Área Retângulo 01](Exemplos/Exercicios-Portugol/Exercicio_Area_Retangulo.portugol)<br/>
-[x] [Exercícios - Área Retângulo 02](Exemplos/Exercicios-Portugol/Exercicio_Area_Retangulo2.portugol)<br/>
-[x] [Exercícios - INSS](Exemplos/Exercicios-Portugol/Exercicio_INSS.portugol)<br/>
-[x] [Exercícios - Laço](Exemplos/Exercicios-Portugol/Exercicio_Laco.portugol)<br/>
-
+[x] [Exercícios - Calculadora](Exemplos/Exercicios-Portugol/Exercicio_001.md)<br>
+[x] [Exercícios - Maioridade](Exemplos/Exercicios-Portugol/Exercicio_002.md)<br>
+[x] [Exercícios - Média Altura](Exemplos/Exercicios-Portugol/Exercicio_003.md)<br>
+[x] [Exercícios - Loja](Exemplos/Exercicios-Portugol/Exercicio_004.md)<br>
+[x] [Exercícios - Dias Passados](Exemplos/Exercicios-Portugol/Exercicios-Portugol/Exercicio_005.md)<br>
+[x] [Exercícios - Área Retângulo 01](Exemplos/Exercicios-Portugol/Exercicio_Area_Retangulo.portugol)<br>
+[x] [Exercícios - Área Retângulo 02](Exemplos/Exercicios-Portugol/Exercicio_Area_Retangulo2.portugol)<br>
+[x] [Exercícios - INSS](Exemplos/Exercicios-Portugol/Exercicio_INSS.portugol)<br>
+[x] [Exercícios - Laço](Exemplos/Exercicios-Portugol/Exercicio_Laco.portugol)<br>
+</div>
 
 ## ✅  11/05  -  Aula Magna
 
@@ -207,30 +213,25 @@ Exemplo Prático de Algoritmo:
   
 ## ✅  (19/05 a 20/05) - Exercicios PHP.
 
-### [Exercicios Didáticos - PHP](www/Exemplos/)
+### [Exercicios Didáticos - PHP](www/Exemplos)
   
 ## ✅  (23/05 | 25/05) - Exercicios Práticos PHP.
 
 ## ✅  Dias Das Aulas De Resolução Dos Exercicios Práticos PHP.
-  
+</div>
 
-  <details>
-    <summary><b>Veja os Dias Aqui e o Link Aqui</b></summary>
-    
-   ### [Exercicios Práticos - PHP](www/Exercicios-PHP) 
-    
-  - 26/05 
-  - 27/05
-  - 30/05
-  - 01/06
-  - 02/06
-  - 03/06 
-  - 06/06  
-  - 08/06 
-  - 09/06 
-  - 10/06 
-    
-  </details>
-  
-  
-  ## [Volte Para o Início](#sumario)
+### [Exercicios Práticos - PHP](www/Exercicios-PHP)
+
+- 26/05
+- 27/05
+- 30/05
+- 01/06
+- 02/06
+- 03/06
+- 06/06
+- 08/06
+- 09/06
+- 10/06
+
+
+## [Volte Para o Início](#sumario)
