@@ -1,6 +1,6 @@
-<div id='sumario'>
+<div id='sumario'></div>
   
-  <div style="text-align:center">
+  <div align = "center">
  
  
 # 🥇**Entra21 PHP 2022**
@@ -15,10 +15,10 @@
     
 #### 🔹Professor Instrutor do Curso de PHP: <a href="https://www.linkedin.com/in/xadrak/">_Adriano Machado_<a/>
 ## 📖Conteúdo, Material e Sincronização Dos Arquivos Referentes Ao Curso Entra21
-
+</div>
     
 ## 🚦 O Que é este Guia?
-</div>
+
     
  ### 🔺Este guia visa deixar registrado os meus conhecimentos adquiridos ao longo do curso.
 1. [O que é Scrum](#oqueescrum)
@@ -31,7 +31,7 @@
 7. [Outros Conceitos](#conceitos)
 8. [Inglês](#ingles)
 9. [PHP](#php)
-  </div>
+ 
 
 <div id='oqueescrum'>
   
@@ -114,6 +114,7 @@ Exemplo Prático de Algoritmo:
   <p style="text-align:right"> Mais informações sobre Algoritmo <a href="https://www.youtube.com/watch?v=dvNp575fwzQ"> AQUI </a></p>
 
 <br>
+     </div>
     
 <div id='algoritmo'>  
   
@@ -160,7 +161,7 @@ Exemplo Prático de Algoritmo:
   
 🔸 Exercícios do livro didático
 
-#### ✅ 03/05 - ✅ 10/05 - ✅ 17/05 - ✅ 24/05 - ✅ 31/05 - ✅ 07/06
+#### ✅ 03/05 - ✅ 10/05 - ✅ 17/05 - ✅ 24/05 - ✅ 31/05 - ✅ 07/06 - ✅ 14/06
    </div>
   <br>
   
@@ -220,8 +221,13 @@ Exemplo Prático de Algoritmo:
 ## ✅  Dias Das Aulas De Resolução Dos Exercicios Práticos PHP.
 </div>
 
+ 
+  
 ### [Exercicios Práticos - PHP](www/Exercicios-PHP)
-
+    
+  <details>
+    <summary>Veja os dias dos Exercicios Aqui</summary><br>
+    
 - 26/05
 - 27/05
 - 30/05
@@ -232,6 +238,9 @@ Exemplo Prático de Algoritmo:
 - 08/06
 - 09/06
 - 10/06
-
+- 13/06
+- 15/06
+    
+</details>
 
 ## [Volte Para o Início](#sumario)
