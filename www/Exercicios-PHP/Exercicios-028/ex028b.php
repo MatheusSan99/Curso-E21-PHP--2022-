@@ -1,17 +1,14 @@
 <?php 
-session_start(); ?>
+session_start();
 
+?>
 <head>
     <title>Ex 028b</title>
     <style>
         <?php include '../../css_form.css' ?><?php include 'alterar_dados.css' ?>
     </style>
 </head>
-<?php
-
-require_once 'ex028.php';
-?>
-
+<?php require_once 'ex028.php';?>
 <body>
     <form method="post" action="">
         <ul class="lista" id="adiciona_na_lista">
@@ -39,9 +36,6 @@ require_once 'ex028.php';
     </form>
 
     <?php
-    if (isset($_GET['apagar'])) {
-       $apagarCadastro = $_GET['apagar'];
-    }
 
     if (isset($_POST['restaura'])) {
         if (!empty($cadastroPessoas)) {
@@ -49,20 +43,19 @@ require_once 'ex028.php';
         }
     }
 
-
     if (isset($_POST['adicionar'])) {
         $_SESSION['cadastro'][] = array("Nome" => $_POST['nome'], "Idade" => $_POST['idade'], "CEP" => $_POST['CEP']);
     }
 
     foreach ($_SESSION['cadastro'] as $indice) {
         ['Nome' => $nome, 'Idade' => $idade, 'CEP' => $cep] = $indice;
-        
+
         echo "<div class='informacoes-gerais'> Nome: {$nome} </div>";
         echo "<div class='informacoes-gerais'> Idade: {$idade}</div>";
         echo "<div class='informacoes-gerais'> CEP: {$cep}</div>";
         echo "</div>";
         echo "<br>";
-        echo "<a href='ex028_apaga.php'><input type='submit' name='apagar' value='Apagar {$nome}'><a/>";
+        echo "<a href='ex028_apaga.php?Delete='><input type='submit' name='apagar' value='Apagar {$nome}'><a/>";
     }
 
     ?>
