@@ -1,0 +1,89 @@
+body {
+    background-image: linear-gradient(to right, white, #a5c5dd);
+    font-family: 'Merriweather';
+}
+fieldset {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.input {
+    width: 60%;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+label {
+    text-align: center;
+}
+
+fieldset {
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+    border:none;
+}
+
+tr {
+    line-height: 30px;
+}
+
+td, th {
+    padding: .4em;
+    margin: 0;
+    text-align: center;
+}
+
+label{
+    color: #555;
+    display: block;
+    margin-bottom: .2em;
+}
+
+.tabela {
+    position: relative;
+    width: 50%;
+    left: 50%;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 5px 5px 5px;
+    table-layout: fixed;
+    margin-bottom : .5em;
+}
+.botao {
+    margin-top: 15px;
+    padding: 5px 5px 5px 5px;
+    width: 30%;
+    font-size: 15px;
+    background:-webkit-linear-gradient(#C7D3DC,#9ec6e4);
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botao:hover {
+    transition: 0.5s;
+    width: 32%;
+}
+.botao-excluir, .botao-editar {
+    font-size: 15px;
+    height: 30px;
+    background:-webkit-linear-gradient(#C7D3DC,#9ec6e4);
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botao-editar {
+
+}

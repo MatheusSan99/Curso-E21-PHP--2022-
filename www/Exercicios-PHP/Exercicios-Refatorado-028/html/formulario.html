@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../style/formularioPrincipal.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+    </head>
+        <body>
+
+            <form method="post" action="">
+                <fieldset>
+                            <label for="nome">Digite o Nome:</label>
+                            <input type="text" class="input" name="nome" id="nome" required placeholder="Insira o nome sem acentos">
+
+                             <label for="idade">Digite a Idade:</label>
+                            <input type="number" class="input" name="idade"  id="idade" required placeholder="1 a 100">
+
+                            <label for="cep">Digite o CEP:</label>
+                            <input type="number" class="input" name="cep" id="cep" required placeholder="123.456.789-0">
+
+                            <input type="submit" value="Adicionar" name="adicionar" class="botao">
+                            <input type="submit" value="Resetar" name="resetar" class="botao">
+                </fieldset>
+            </form>
+                            <table class="tabela" border="0">
+                                <td>Nome</td>
+                                <td>Idade</td>
+                                <td>Cep</td>
+                                <td>Excluir</td>
+                                <td>Editar</td>
+                            </table>
+        </body>
+</html>

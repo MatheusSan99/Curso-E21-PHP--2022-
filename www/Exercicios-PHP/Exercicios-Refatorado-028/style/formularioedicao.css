@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(to right, white, #a5c5dd);
+}
+h1 {
+    text-align: center;
+    font-family: 'Merriweather';
+}
+fieldset, input {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+fieldset {
+    position: absolute;
+    display: flex;
+    width: 80%;
+    height: 15%;
+    text-align: center;
+    font-family: 'Merriweather';
+    top: 50%;
+    left: 50%;
+    padding: 5px 5px 5px 5px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+input {
+    width: 40%;
+    margin: 10px 10px 10px 10px;
+    height: 50%;
+    text-align: center;
+    display: block;
+}
+span:after {
+    position: absolute;
+    content: '\2705';
+    transition: 0.5s;
+}
+.botao {
+    padding: 5px 5px 5px 5px;
+    width: 60%;
+    height: 55%;
+    background:-webkit-linear-gradient(#C7D3DC,#9ec6e4);
+}
+.botao:hover {
+    border-color: black;
+    border: 1px solid rgb(70, 68, 68);
+    cursor:pointer;
+    padding-right: 15px;
+    transition: 0.3s;
+}
+
+
