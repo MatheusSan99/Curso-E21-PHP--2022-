@@ -49,5 +49,33 @@ span:after {
     padding-right: 15px;
     transition: 0.3s;
 }
+#cancelar {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    width: 90px;
+    height: 30px;
+    font-family: 'Merriweather';
+    font-size: 17px;
+    background:-webkit-linear-gradient(#dfb9b9, #d14f4f);
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
 
+}
+#cancelar:hover {
+    border: 2px solid rgb(70, 68, 68);
+    transition: 0.5ms;
+    animation: treme 0.3s;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+@keyframes treme {
+    10% {margin-right: 0;}
+    10% {margin-left: 0.5px;}
+    20% {margin-left: 0;}
+    30% {margin-left: -0.5px;}
+    20% {margin-left: 0;}
+}
 

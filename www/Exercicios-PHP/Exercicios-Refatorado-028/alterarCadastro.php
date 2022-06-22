@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once 'bancoDeDados.php';
+
 ?>
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -9,7 +10,8 @@ require_once 'bancoDeDados.php';
         <title>Editar Cadastro</title>
     </head>
     <body>
-        <h1>Edição do Cadastro</h1>
+        <h1>Edição do Cadastro: <?php echo $_SESSION['cadastros'][$_GET['alterar']]['Nome'] ?></h1>
+       <a href="adicionaCadastro.php"><input type="submit" value="Cancelar" id="cancelar"><a/>
     <form method="post">
         <fieldset>
             <legend>Edite os Dados</legend>
@@ -27,19 +29,16 @@ require_once 'bancoDeDados.php';
     </form>
     </body>
 
-
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $alteracaoCompleta =
-            ['Nome' => $_POST['alteracaoNome'],
-            'Idade' => $_POST['alteracaoIdade'],
-            'Cep' => $_POST['alteracaoCep']];
 
-    $indiceASerExcluido = array_search($_GET['alterar'], array_column($_SESSION['cadastros'], 'Nome'));
+    $nome = $_POST['alteracaoNome'];
+    $idade = $_POST['alteracaoIdade'];
+    $cep = $_POST['alteracaoCep'];
 
-    array_splice($_SESSION['cadastros'], ($indiceASerExcluido), 1);
-
-   $_SESSION['cadastros'][] = $alteracaoCompleta;
+    $_SESSION['cadastros'][$_GET['alterar']]['Nome'] = $nome;
+    $_SESSION['cadastros'][$_GET['alterar']]['Idade'] = $idade;
+    $_SESSION['cadastros'][$_GET['alterar']]['Cep'] = $cep;
 
     header("refresh: 1; adicionaCadastro.php");
 
