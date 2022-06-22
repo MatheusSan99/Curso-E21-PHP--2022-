@@ -11,7 +11,7 @@ require_once 'bancoDeDados.php';
     </head>
     <body>
         <h1>Edição do Cadastro: <?php echo $_SESSION['cadastros'][$_GET['alterar']]['Nome'] ?></h1>
-       <a href="adicionaCadastro.php"><input type="submit" value="Cancelar" id="cancelar"><a/>
+       <a href="abrirFormulario.php"><input type="submit" value="Cancelar" id="cancelar"></a>
     <form method="post">
         <fieldset>
             <legend>Edite os Dados</legend>
@@ -40,6 +40,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION['cadastros'][$_GET['alterar']]['Idade'] = $idade;
     $_SESSION['cadastros'][$_GET['alterar']]['Cep'] = $cep;
 
-    header("refresh: 1; adicionaCadastro.php");
+    header("refresh: 1; abrirFormulario.php");
 
 }

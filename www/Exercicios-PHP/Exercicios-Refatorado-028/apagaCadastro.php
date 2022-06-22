@@ -18,5 +18,5 @@ if($_GET['excluir']) {
 
     array_splice($_SESSION['cadastros'], ($indiceASerExcluido), 1);
 }
-//    header('Location: adicionaCadastro.php');
-    header("refresh: 1; adicionaCadastro.php");
+//    header('Location: abrirFormulario.php');
+    header("refresh: 1; abrirFormulario.php");

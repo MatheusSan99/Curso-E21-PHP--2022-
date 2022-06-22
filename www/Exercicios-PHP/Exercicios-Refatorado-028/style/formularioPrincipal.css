@@ -62,6 +62,7 @@ label{
 }
 .botao {
     margin-top: 15px;
+    margin-right: 10px;
     padding: 5px 5px 5px 5px;
     width: 30%;
     font-size: 15px;
@@ -84,6 +85,9 @@ label{
     border-radius: 10px;
     cursor: pointer;
 }
+.botao-excluir {
+    margin-left: 25px;
+}
 .botao-editar {
-
+    margin-right: 10px;
 }
