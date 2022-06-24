@@ -32,13 +32,9 @@ require_once 'bancoDeDados.php';
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $nome = $_POST['alteracaoNome'];
-    $idade = $_POST['alteracaoIdade'];
-    $cep = $_POST['alteracaoCep'];
-
-    $_SESSION['cadastros'][$_GET['alterar']]['Nome'] = $nome;
-    $_SESSION['cadastros'][$_GET['alterar']]['Idade'] = $idade;
-    $_SESSION['cadastros'][$_GET['alterar']]['Cep'] = $cep;
+    $_SESSION['cadastros'][$_GET['alterar']]['Nome'] = $_POST['alteracaoNome'];
+    $_SESSION['cadastros'][$_GET['alterar']]['Idade'] = $_POST['alteracaoIdade'];
+    $_SESSION['cadastros'][$_GET['alterar']]['Cep'] = $_POST['alteracaoCep'];
 
     header("refresh: 1; abrirFormulario.php");
 
