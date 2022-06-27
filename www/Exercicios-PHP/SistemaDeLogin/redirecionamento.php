@@ -1,15 +1,12 @@
 <?php
-
-session_start();
-require_once 'login.php';
-
-
-if ($logado == true) {
+require 'verificacao.php';
+if ($logado) {
 
     echo  $logado;
     echo "Login concluido, você será redirecionado para o index!";
-    header("refresh: 1; login.php");
-    require_once 'usuariologado.php';
+
+    header("refresh: 2; usuariologado.php");
+   
 
 }
 

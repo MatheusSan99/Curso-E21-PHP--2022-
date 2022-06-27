@@ -1,5 +1,6 @@
 <?php
+require_once 'login.php';
 
 echo "<p> Logado </p>";
 
-echo " <p> Usuario: {$_POST['login']} </p> ";
+echo " <p> Usuario: {$loginAcesso['login']} </p> ";
