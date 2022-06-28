@@ -3,9 +3,9 @@ session_start();
 
 
 require_once 'html/form.html';
-require_once 'adicionarUsuario.php';
 require_once 'bancoDeDados.php';
 require_once 'verificacao.php';
+// require_once 'adicionarUsuario.php';
 
     if (isset($_POST['enviar'])) {
 
@@ -14,5 +14,5 @@ require_once 'verificacao.php';
         verificaDados($loginAcesso, $_SESSION['salvaLogin']);
 
     }
-
-   print_r($_SESSION['salvaLogin']);
+print_r($_SESSION['salvaLogin']);
+ 
