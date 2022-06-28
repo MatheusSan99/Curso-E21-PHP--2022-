@@ -1,10 +1,14 @@
-<?php 
-    if($permissao == $loginAcesso) {
-        $logado = true;
-        header("refresh: 1; redirecionamento.php");
-    } else {
-        echo 'Login ou senha incorretos!';
-        $logado = false;
-    }
+<?php
 
-?>
+    function verificaDados(array $loginUser, array $loginSalvo) {
+
+        if ($loginUser == $loginSalvo) {
+
+            header("refresh: 1; logado.php");
+
+        }  else {
+
+                echo  "Login ou senha incorretos!";
+        }
+
+    }

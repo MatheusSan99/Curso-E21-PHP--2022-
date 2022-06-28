@@ -1,3 +1,8 @@
 <?php
 
-$permissao = ['login' => 'admin', 'password' => 'senha'];
+$loginSalvo = ['login' => 'admin', 'password' => 'senha'];
+
+
+if (!isset($_SESSION['salvaLogin'])) {
+    $_SESSION['salvaLogin'] = $loginSalvo;
+}

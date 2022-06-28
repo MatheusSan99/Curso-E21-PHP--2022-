@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient(to right, white, #a5c5dd);
+    font-family: 'Merriweather';
+}
+form {
+    position: absolute;
+    display: flex;
+    height: 20px;
+    text-align: center;
+    font-family: 'Merriweather';
+    top: 50%;
+    left: 50%;
+    padding: 5px 5px 5px 5px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    height: 20px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.botao {
+    height: 22px;
+    font-size: 15px;
+    background:-webkit-linear-gradient(#C7D3DC,#9ec6e4);
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
