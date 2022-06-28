@@ -1,14 +1,14 @@
 <?php
 
-    function verificaDados(array $loginUser, array $loginSalvo) {
+function verificaDados(array $arrayEnviado, array $arraySalvo) {
 
-        if ($loginUser == $loginSalvo) {
-
+    foreach($arraySalvo as $indice) {
+        if ($indice == $arrayEnviado) {
+            echo  'coincide';
             header("refresh: 1; logado.php");
 
-        }  else {
-
-                echo  "Login ou senha incorretos!";
+        } else  {
+            echo 'Login ou senha incorretos!';
         }
-
     }
+}
