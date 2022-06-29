@@ -1,5 +1,4 @@
 <?php
-
 function verificaDados(array $arrayEnviado, array $arraySalvo) {
 
     foreach($arraySalvo as $indice) {
@@ -12,3 +11,8 @@ function verificaDados(array $arrayEnviado, array $arraySalvo) {
         }
     }
 }
+
+
+
+
+
