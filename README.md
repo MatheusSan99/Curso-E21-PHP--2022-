@@ -31,6 +31,7 @@
 7. [Outros Conceitos](#conceitos)
 8. [Inglês](#ingles)
 9. [PHP](#php)
+10. [Banco De Dados](#bancodedados)
  
 
 <div id='oqueescrum'>
@@ -244,7 +245,19 @@ Exemplo Prático de Algoritmo:
 - 17/06
 - 20/06
 - 22/06
+- 23/06
+- 24/06
+
     
 </details>
 
+<div id='bancodedados'>
+
+### [BancoDeDados](www/BancoDeDados)
+
+#### Exercicios Teoricos sobre banco de dados, para entendermos a estrutura, funcionamento e sua utilização.
+
+## ✅  (27/06 a 01/07) - Exercicios Teóricos.
+ 
+</div>
 ## [Volte Para o Início](#sumario)
