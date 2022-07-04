@@ -11,3 +11,4 @@ if (!$_SESSION['logado']) {
     echo  'Você não está logado';
     header("refresh: 1; logar.php");
 }
+11111111
