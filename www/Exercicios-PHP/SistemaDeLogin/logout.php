@@ -6,12 +6,15 @@
 </head>
     <body>
         <form method="post">
-            <input type="submit" name="logout" value="Logout">
+         <?php  if($_SESSION['logado'])
+            {
+          echo "<input type='submit' name='logout' value='Logout'>";
+            } ?>
         </form>
     </body>
 <?php
 
 if (isset($_POST['logout'])) {
-    unset($_SESSION['cadastros']);
+    $_SESSION['logado'] = false;
     header('Location: logar.php');
 }

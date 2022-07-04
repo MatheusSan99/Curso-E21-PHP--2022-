@@ -2,9 +2,12 @@
 session_start();
 require_once 'logout.php';
 
-if (isset($_SESSION['cadastros'])) {
-    echo "Você está logado, seu nome de usuário é:";
-
+if ($_SESSION['logado']) {
+    echo "Você está logado, seu nome de usuário é: ";
+    echo $_SESSION['salvaLogin']['login'];
 }
-else
-    echo  'voce nao esta logado';
+if (!$_SESSION['logado']) {
+
+    echo  'Você não está logado';
+    header("refresh: 1; logar.php");
+}
