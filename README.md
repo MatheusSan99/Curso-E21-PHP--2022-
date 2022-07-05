@@ -260,4 +260,5 @@ Exemplo Prático de Algoritmo:
 ## ✅  (27/06 a 01/07) - Exercicios Teóricos.
  
 </div>
+
 ## [Volte Para o Início](#sumario)
