@@ -261,4 +261,4 @@ Exemplo Prático de Algoritmo:
  
 </div>
 
-## [Volte Para o Início](#sumario)
+## [Voltar Para o Início da Página](#sumario)
