@@ -1,9 +1,9 @@
 <?php
-function verificaDados(array $arrayEnviado, array $arraySalvo) {
+
+function verificaDados(array $arrayEnviado, array $arraySalvo) : void {
 
     foreach($arraySalvo as $indice) {
-        if ($indice == $arrayEnviado) {
-
+        if ($arrayEnviado == $indice) {
             echo  'Logando...';
 
             $_SESSION['logado'] = true;
@@ -11,13 +11,10 @@ function verificaDados(array $arrayEnviado, array $arraySalvo) {
             header("refresh: 1; logado.php");
 
         } else  {
+            echo "Nome ou senha incorretos! <br>";
             $_SESSION['logado'] = false;
 
         }
     }
 }
-
-
-
-
 

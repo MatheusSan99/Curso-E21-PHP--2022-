@@ -1,4 +1,4 @@
 <?php
-require_once 'bancoDeDados.php';
-
-$_SESSION['cadastros'] = $cadastros;
+if (isset($_POST['resetar'])) {
+    $_SESSION['cadastros'] = $cadastros;
+}

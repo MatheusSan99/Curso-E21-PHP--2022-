@@ -1,16 +1,17 @@
 <?php
 session_start();
-
 require_once 'html/form.html';
 require_once 'bancoDeDados.php';
 require_once 'adicionarUsuario.php';
 require_once 'verificacao.php';
+require_once 'resetar.php';
 
 echo "Logins Cadastrados (para análise do funcionamento) <br><br>";
 
-foreach ($_SESSION['cadastros'] as $indice) {
-    echo "Login {$indice['login']} | ";
-    echo "Senha {$indice['password']} <br>";
+foreach ($_SESSION['cadastros'] as $indice => $dados) {
+
+    echo "Login: {$dados['login']} | ";
+    echo "Senha: {$dados['password']} <br>";
 }
 if (isset($_POST['enviar'])) {
 
@@ -18,7 +19,6 @@ if (isset($_POST['enviar'])) {
 
     verificaDados($loginUser, $_SESSION['cadastros']);
 }
-if (isset($_POST['resetar'])) {
-    require_once 'resetar.php';
-}
+
+
 
