@@ -1,8 +1,6 @@
-## MODULO 01
-
 ### Introdução
 
-### Aula 01 - O que é Banco de Dados?
+### - O que é Banco de Dados?
 
 #### R: Conjunto de informações organizadas em um formato onde os dados possam ser facilmente:
 - Armazenados.
