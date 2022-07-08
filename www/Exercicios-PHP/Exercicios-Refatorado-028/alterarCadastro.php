@@ -36,6 +36,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION['cadastros'][$_GET['alterar']]['Idade'] = $_POST['alteracaoIdade'];
     $_SESSION['cadastros'][$_GET['alterar']]['Cep'] = $_POST['alteracaoCep'];
 
-    header("refresh: 1; abrirFormulario.php");
+    header("refresh: 10; abrirFormulario.php");
 
 }
