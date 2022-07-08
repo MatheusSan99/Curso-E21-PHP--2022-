@@ -37,7 +37,8 @@ Tipos de Dados:
 - Integer
 - Real
 - Null:
-https://www.sqlite.org/datatype3.html
+
+<a href="https://www.sqlite.org/datatype3.html">Informações sobre os Tipos<a/>
 
 ### Chave Primaria - PK Primary Key (Geralmente nomeada ID)
 - Ela serve para definir exclusividades dentro de uma tabela. Cada linha de nossa tabela é unica, PK. Só podemos definir uma unica coluna dentro da tabela como PK. Uma chave primaária pode ser com uma única coluna ou composta por 2 colunas de nossa tabela.
