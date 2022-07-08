@@ -76,7 +76,7 @@ Tipos de Dados:
 
 #### O relacionamento é a associação entre as Tabelas, que são conectadas por Chaves Primárias (PK), Chaves Estrangeiras (FK).
 
-### 1:1 
+ ### 1:1
 #### Relacionamento em 1 linha de uma tabelas com 1 linha de outras tabelas. 
 
 ### 1:N 
