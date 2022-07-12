@@ -110,7 +110,7 @@
 
 Exemplo Prático de Algoritmo:
              
-➡️➡️➡️ [x] [Exemplo - Algoritmo](Exercicios-Didaticos/Exemplo_algoritmo.md)
+➡️➡️➡️ [x] [Exemplo - Algoritmo](Exemplos/Exercicios-Portugol/Exemplo_algoritmo.md)
 
   <p style="text-align:right"> Mais informações sobre Algoritmo <a href="https://www.youtube.com/watch?v=dvNp575fwzQ"> AQUI </a></p>
 
@@ -196,7 +196,7 @@ Exemplo Prático de Algoritmo:
 [x] [Exercícios - Maioridade](Exemplos/Exercicios-Portugol/Exercicio_002.md)<br>
 [x] [Exercícios - Média Altura](Exemplos/Exercicios-Portugol/Exercicio_003.md)<br>
 [x] [Exercícios - Loja](Exemplos/Exercicios-Portugol/Exercicio_004.md)<br>
-[x] [Exercícios - Dias Passados](Exemplos/Exercicios-Portugol/Exercicios-Portugol/Exercicio_005.md)<br>
+[x] [Exercícios - Dias Passados](Exemplos/Exercicios-Portugol/Exercicio_005.md)<br>
 [x] [Exercícios - Área Retângulo 01](Exemplos/Exercicios-Portugol/Exercicio_Area_Retangulo.portugol)<br>
 [x] [Exercícios - Área Retângulo 02](Exemplos/Exercicios-Portugol/Exercicio_Area_Retangulo2.portugol)<br>
 [x] [Exercícios - INSS](Exemplos/Exercicios-Portugol/Exercicio_INSS.portugol)<br>
@@ -207,58 +207,28 @@ Exemplo Prático de Algoritmo:
 
 #### 🔹 Aula Magna com todos os alunos e responsáveis pelo curso
 
-## ✅  16/05  -  Instalação do XAMP para desenvolvimento em PHP.
-
 <div id='php'>
 
-## ✅  18/05  -  Configuração do PHP e exercicios (PHP) no VSCode.
-  
-## ✅  (19/05 a 20/05) - Exercicios PHP.
+## ✅  16/05 a 18/05  -  Configuração do PHP para desenvolvimento.
 
-### [Exercicios Didáticos - PHP](www/Exercicios-Didaticos)
-  
-## ✅  (23/05 | 25/05) - Exercicios Práticos PHP.
+### [Exercicios Didáticos - PHP (19/05 a 20/05)](www/Exercicios-Didaticos)
 
-## ✅  Dias Das Aulas De Resolução Dos Exercicios Práticos PHP.
-</div>
-
- 
-  
-### [Exercicios Práticos - PHP](www/Exercicios-PHP)
+### [Exercicios Práticos - PHP (23/05 a 24/06)](www/Exercicios-PHP)
     
-  <details>
-    <summary>Veja os dias dos Exercicios Aqui</summary><br>
-    
-- 26/05
-- 27/05
-- 30/05
-- 01/06
-- 02/06
-- 03/06
-- 06/06
-- 08/06
-- 09/06
-- 10/06
-- 13/06
-- 15/06
-- 16/06
-- 17/06
-- 20/06
-- 22/06
-- 23/06
-- 24/06
-
-    
-</details>
 
 <div id='bancodedados'>
 
 ### [BancoDeDados](www/BancoDeDados)
 
-#### Exercicios Teoricos sobre banco de dados, para entendermos a estrutura, funcionamento e sua utilização.
+#### Exercicios Teoricos e práticos sobre banco de dados, para entendermos a estrutura, funcionamento e sua utilização.
 
-## ✅  (27/06 a 01/07) - Exercicios Teóricos.
- 
+<details>
+<summary>Veja os dias dos Exercicios Aqui</summary>
+
+### ✅  (27/06 a 11/07) - Exercicios Teóricos e práticos.
+
+</details>
+
 </div>
 
 ## [Voltar Para o Início da Página](#sumario)

@@ -29,7 +29,7 @@ Tabelas respeitam um SCHEMA, que Determina como as tabelas devem ser.
 - Linhas ou Tuplas
 
 | ID  | CPF            | NOME    | IDADE |
-| --- | -------------- | ------- | ----- |
+|-----|----------------|---------|-------|
 | 1   | 123.456.789-11 | Matheus | 23    |
 | 2   | 123-555-777-12 | Amanda  | 20    |
 
@@ -59,18 +59,18 @@ Tipos de Dados:
 ### Chave estrangeira (FK) (Foreign Key)
 
 | PESSOAS_ID | CPF            | NOME       | CIDADE_ID |
-| ---------- | -------------- | ---------- | --------- |
+|------------|----------------|------------|-----------|
 | 1          | 123.456.789-11 | Matheus    | 2         |
 | 2          | 123-555-777-12 | Amanda     | 2         |
 | 3          | 322-555-666-11 | Alessandra | 1         |
 
 | CIDADES_ID | ID                   | UF_ID |
-| ---------- | -------------------- | ----- |
+|------------|----------------------|-------|
 | 1          | São Bernado do Campo | 1     |
 | 2          | Joinville            | 2     |
 
 | ID  | ESTADO         |
-| --- | -------------- |
+|-----|----------------|
 | 1   | São Paulo      |
 | 2   | Santa Catarina |
 
@@ -95,14 +95,14 @@ Tipos de Dados:
 ### Gerentes:
 
 | ID  | NOME          |
-| --- | ------------- |
+|-----|---------------|
 | 1   | Walter White  |
 | 2   | Jesse Pinkman |
 
 ### Departamentos:
 
 | ID  | NOME      | GERENTE_ID |
-| --- | --------- | ---------- |
+|-----|-----------|------------|
 | 1   | Produção  | 1          |
 | 2   | Marketing | 2          |
 
@@ -113,14 +113,14 @@ Tipos de Dados:
 ### Marcas
 
 | ID  | NOME  |
-| --- | ----- |
+|-----|-------|
 | 1   | Dell  |
 | 2   | Apple |
 
 ### Produtos
 
 | ID  | NOME     | MARCAS_ID |
-| --- | -------- | --------- |
+|-----|----------|-----------|
 | 1   | teclado  | 1         |
 | 2   | monitor  | 1         |
 | 3   | iphone 7 | 2         |
@@ -133,7 +133,7 @@ Tipos de Dados:
 ### Musica
 
 | ID  | NOME                                    |
-| --- | --------------------------------------- |
+|-----|-----------------------------------------|
 | 1   | Highway to Hell                         |
 | 2   | Stairway to Heaven                      |
 | 3   | Another Day In Paradise                 |
@@ -142,7 +142,7 @@ Tipos de Dados:
 ### Autores
 
 | ID  | NOME          |
-| --- | ------------- |
+|-----|---------------|
 | 1   | Bon Scott     |
 | 2   | Angus Youg    |
 | 3   | Malcom Youg   |
@@ -153,7 +153,7 @@ Tipos de Dados:
 ### MusicasxAutores
 
 | ID  | MUSICA_ID | AUTORES_ID |
-| --- | --------- | ---------- |
+|-----|-----------|------------|
 | 1   | 1         | 1          |
 | 2   | 1         | 2          |
 | 3   | 1         | 3          |
@@ -200,22 +200,38 @@ Tipos de Dados:
 
 ## Outros Operadores Úteis
 
-| Comando | Padrão |
-|---------|--------|
-| IN            | Retorna 1 se o valor testado estiver na lista | 
-|LIKE           | Retorna 1 se o valor testado coincidir com o padrão passado |
-| AND           | Retorna 1 se as duas expressoes testadas forem 1 |
-| OR            | Retorna 1 se uma das duas expressoes testadas forem 1  |
-| BETWEEN       | Retorna 1 se o valor testado estiver no intervalo passado |
-1
-Módulo 04 - video 039 - Order by
-Order By, 1 coluna, mais colunas, decrescente.
+| Comando | Descrição                                                   |
+|---------|-------------------------------------------------------------|
+| IN      | Retorna 1 se o valor testado estiver na lista               | 
+| LIKE    | Retorna 1 se o valor testado coincidir com o padrão passado |
+| AND     | Retorna 1 se as duas expressões testadas forem 1            |
+| OR      | Retorna 1 se uma das duas expressões testadas forem 1       |
+| BETWEEN | Retorna 1 se o valor testado estiver no intervalo passado   |
 
-Módulo 04 - video 040 - Funções embutidas
-: FUNÇÃO : DESCRIÇÃO : AVG : Retorna o valor médio do grupo : MIN : Retorna o valor mínimo do grupo : MAX : Retorna o valor máximo do grupo : SUM : Retorna a soma : COUNT : Retorna o numero de linhas da tabela
+## Funções Úteis
 
-Agrupamento
-GROUP BY
+| Função | Descrição                            |
+|--------|--------------------------------------|
+| AVG    | Retorna o valor médio do grupo       |
+| MIN    | Retorna o valor mínimo do grupo      |
+| MAX    | Retorna o valor máximo do grupo      |
+| SUM    | Retorna a soma                       |
+| COUNT  | Retorna o numero de linhas da tabela |
 
-Módulo 04 - video 042 - Junção
-Junção com Where
+### Outros comandos
+
+#### Order By (ASC, DESC)
+
+- <a href="https://www.sqlitetutorial.net/sqlite-order-by/">Usado para ordenar os campos escolhidos, se nada for definido, será usado o modo ascendente por padrão.</a>
+
+#### GROUP BY
+
+- <a href="https://www.sqlitetutorial.net/sqlite-group-by/">Usado para agrupar os campos escolhidos, para uma visualização mais clara.</a>
+
+#### Junção com Where
+
+- Usado para possivelmente fazer um comparativo entre dados de duas tabelas.<br>
+Tabela 1 PESSOAS.PESSOA_CIDADE_ID<br>
+Tabela 2 CIDADES.CIDADE_ID
+
+Ex: Faça uma busca onde: <br> PESSOAS.PESSOA_CIDADE_ID = CIDADES.CIDADE_ID
