@@ -152,7 +152,7 @@ Exemplo Prático de Algoritmo:
    
 
 </div>
-  <br>
+<br>
    
 <div id='ingles'>
 
@@ -162,9 +162,10 @@ Exemplo Prático de Algoritmo:
   
 🔸 Exercícios do livro didático
 
-#### ✅ 03/05 - ✅ 10/05 - ✅ 17/05 - ✅ 24/05 - ✅ 31/05 - ✅ 07/06 - ✅ 14/06 - ✅ 21/06
-   </div>
-  <br>
+#### ✅ 03/05 - ✅ 10/05 - ✅ 17/05 - ✅ 24/05 - ✅ 31/05 - ✅ 07/06 - ✅ 14/06 - ✅ 21/06 - ✅ 28/06 - ✅ 05/07
+
+</div>
+<br>
   
 <div id='github1'>  
   
@@ -215,6 +216,7 @@ Exemplo Prático de Algoritmo:
 
 ### [Exercicios Práticos - PHP (23/05 a 24/06)](www/Exercicios-PHP)
     
+</div>
 
 <div id='bancodedados'>
 
