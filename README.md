@@ -1,4 +1,4 @@
-<div id='sumario'></div>
+<div id='sumario'>💻</div>
   
   <div align = "center">
  
@@ -210,7 +210,9 @@ Exemplo Prático de Algoritmo:
 
 <div id='php'>
 
-## ✅  16/05 a 18/05  -  Configuração do PHP para desenvolvimento.
+## ✅ PHP
+
+#### 16/05 a 18/05  -  Configuração do ambiente para desenvolvimento em PHP.
 
 ### [Exercicios Didáticos - PHP (19/05 a 20/05)](www/Exercicios-Didaticos)
 
@@ -220,7 +222,9 @@ Exemplo Prático de Algoritmo:
 
 <div id='bancodedados'>
 
-### [BancoDeDados](www/BancoDeDados)
+## ✅ Banco de Dados
+
+### [Banco De Dados](www/BancoDeDados)
 
 #### Exercicios Teoricos e práticos sobre banco de dados, para entendermos a estrutura, funcionamento e sua utilização.
 
