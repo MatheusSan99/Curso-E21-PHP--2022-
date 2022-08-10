@@ -1,0 +1,1 @@
+Este é um projeto que monta gráficos com JS, usando a API de visualização de dados do Google: Google Charts, ou até mesmo puxando os dados de um arquivo JSON.

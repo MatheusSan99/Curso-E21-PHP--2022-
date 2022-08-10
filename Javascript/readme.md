@@ -1,0 +1,1 @@
+## Esta Pasta busca armazenar os meus estudos sobre javascript para referências futuras.
