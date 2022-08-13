@@ -1,6 +1,6 @@
 <?php
 require_once 'bancoDeDados.php';
-require_once 'html/listar.html';
+require_once 'html/listar.php';
 
 $dataSearch = $pdo->query('SELECT * FROM formularios');
 $cadastros = $dataSearch->fetchAll(PDO::FETCH_ASSOC);
@@ -10,7 +10,6 @@ echo "<a href='frontPage.php'><input class='btn ml-5 btn-outline-light btn-lg px
 
 foreach ($cadastros as $cadastro) {
     echo
-
     "<div class='card mb-3 card-body container'>
         <div class='d-flex flex-column flex-lg-row'>
             <div class='row flex-fill'>
@@ -23,8 +22,7 @@ foreach ($cadastros as $cadastro) {
                     <span class='badge bg-secondary'>Saldo R$: {$cadastro['saldo']}</span>
                     
                     <a href='editar.php?editar={$cadastro['id']}' class='col-sm-3 text-lg-end' ><input type='submit' class='btn btn-primary stretched-link ' name='editar' value='Editar {$cadastro['nome']}'>
-                    </a>   
-                     
+                    </a>  
                 </div>
             </div>
         </div>

@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Login</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="../style/style.css">
-</head>
+<?php $titulo = 'Edição'; require_once 'header.php';?>
 <body class="gradient-custom">
 <form method="POST" autocomplete="off" class="vh-100 overflow-hidden">
   <div class="container py-3 h-100">
@@ -18,9 +11,9 @@
               <h2 class="fw-bold">Formulário</h2>
 
               <div class="form-outline form-white mb-1">
-                <input type="text" name="nome" id="typeEmailX" class="form-control form-control-lg text-center my-4" placeholder="Insira o Nome" />
+                <input type="text" name="nome" id="typeEmailX" class="form-control form-control-lg text-center my-4" value="" placeholder="Insira o Nome" />
 
-                <input type="number" name="idade" id="typePasswordX" class="form-control form-control-lg my-4 text-center" placeholder="Insira a Idade" />
+                <input type="number" name="idade" id="typePasswordX" class="form-control form-control-lg my-4 text-center"  placeholder="Insira a Idade" />
                 <input type="text" name="cep" class="form-control form-control-lg my-4 text-center" placeholder="Insira o Cep" />
                 <input type="number" name="saldo" class="form-control form-control-lg my-4 text-center" placeholder="Insira o Saldo" />
               </div>
@@ -36,4 +29,3 @@
   </div>
 </form>
 </body>
-</html>

@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Cadastro</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="../style/style.css">
-</head>
+<?php $titulo = 'Formulário'; require_once 'header.php';?>
 <body class="gradient-custom">
 <form method="POST" autocomplete="off" class="vh-100 overflow-hidden">
   <div class="container py-3 h-100">

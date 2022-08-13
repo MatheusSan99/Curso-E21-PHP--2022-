@@ -1,5 +1,5 @@
 <?php
-require_once 'html/index.html';
+require_once 'html/index.php';
 require_once 'bancoDeDados.php';
 require_once 'adicionarCadastro.php';
 

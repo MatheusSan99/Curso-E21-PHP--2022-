@@ -1,6 +1,6 @@
 <?php
 require_once 'bancoDeDados.php';
-require_once 'html/editar.html';
+require_once 'html/editar.php';
 $id = $_GET['editar'];
 
 if (isset($_POST['concluir']) && !empty($_POST['nome']) && !empty($_POST['idade']) && !empty($_POST['cep']) && !empty($_POST['saldo'])) {
