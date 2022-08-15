@@ -2,9 +2,9 @@
 try {
     $caminhoDatabase = 'banco.sqlite';
     $pdo = new PDO('sqlite:' . $caminhoDatabase);
+    $pdo->exec('CREATE TABLE logins(id INTEGER PRIMARY KEY, login TEXT, senha TEXT);');
     $_SESSION['pdo'] = $pdo;
 }
     catch (PDOException $erroPDO) {
-    echo "Ocorreu um erro com o Banco de dados." . $erroPDO->getMessage();
 }
 session_start();
