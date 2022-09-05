@@ -14,9 +14,23 @@ function desenhaPizza(){
         ['Cartão de Crédito', 900],
         ['Alimentação', 260]
     ]);
+    var opcoes = {
+        title:'Tipos de Gastos',
+        is3D:true,
+        legend:'labeled',
+        pieSliceText:'value',
+        slices: {
+           0:{color: '#4169E1'},
+           1:{color: '#1E90FF'}, 
+           2:{color: '#00BFFF'}, 
+           3:{color: '#87CEFA'}, 
+           4:{color: '#87CEEB'}, 
+           5:{color: '#ADD8E6'} 
+        }
+    };
 
-    var grafico = new google.visualization.PieChart();
-    grafico.draw(tabela);
-    google.charts.setOnLoadCallback(tabela);
+    var grafico = new google.visualization.PieChart(document.getElementById('graficoPizza'));
+    grafico.draw(tabela,opcoes);
+    
 }
-desenhaPizza();
+google.charts.setOnLoadCallback(desenhaPizza);
