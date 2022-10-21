@@ -32,6 +32,7 @@
 8. [Inglês](#ingles)
 9. [PHP](#php)
 10. [Banco De Dados](#bancodedados)
+11. [Projeto Final](#projetofinal)
  
 
 <div id='oqueescrum'>
@@ -236,5 +237,11 @@ Exemplo Prático de Algoritmo:
 </details>
 
 </div>
+
+<div id='projetofinal'>
+
+## ✅ Com Orgulho Apresento o Projeto Final "EuQueFiz" do Entra21
+
+### <a href="https://euquefiz.herokuapp.com/">[Projeto Final]</a>
 
 ## [Voltar Para o Início da Página](#sumario)
