@@ -242,6 +242,6 @@ Exemplo Prático de Algoritmo:
 
 ## ✅ Com Orgulho Apresento o Projeto Final "EuQueFiz" do Entra21
 
-### <a href="https://euquefiz.herokuapp.com/">[Projeto Final]</a>
+# <a href="https://euquefiz.herokuapp.com/">[Projeto Final]</a>
 
 ## [Voltar Para o Início da Página](#sumario)
